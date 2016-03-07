@@ -1,0 +1,103 @@
+# Compile of exp2c.vhd failed with 2 errors.
+# Compile of exp2c.vhd was successful.
+vsim work.exp2c
+# vsim work.exp2c 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exp2c(somador)
+# Loading work.mux8to4(seletor)
+# Loading work.mux2to1(combinacional)
+# Loading work.somador4bits(soma)
+# Loading work.somadorcompleto(soma)
+add wave -position insertpoint  \
+sim:/exp2c/a
+wave create -driver freeze -pattern constant -value 0110 -range 3 0 -starttime 0ps -endtime 1000ps sim:/exp2c/a
+wave create -driver freeze -pattern constant -value 1001 -range 3 0 -starttime 0ps -endtime 1000ps sim:/exp2c/b
+wave create -driver freeze -pattern constant -value 1100 -range 3 0 -starttime 0ps -endtime 1000ps sim:/exp2c/c
+wave create -driver freeze -pattern constant -value 0001 -range 3 0 -starttime 0ps -endtime 1000ps sim:/exp2c/d
+force -freeze sim:/exp2c/s0 1 0, 0 {200 ps} -r 400
+wave create -driver freeze -pattern clock -initialvalue 1 -period 400ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp2c/s0
+wave create -driver freeze -pattern clock -initialvalue 1 -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp2c/s1
+wave create -driver freeze -pattern clock -initialvalue 1 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp2c/s2
+add wave -position insertpoint  \
+sim:/exp2c/m
+add wave -position insertpoint  \
+sim:/exp2c/CY
+# Load canceled
+run -all
+wave create -driver freeze -pattern clock -initialvalue 0 -period 400ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp2c/s2
+add wave -position 5 -format Logic -height 17 -editable 2 Edit:/exp2c/s2
+wave create -driver freeze -pattern clock -initialvalue 0 -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp2c/s1
+add wave -position 5 -format Logic -height 17 -editable 2 Edit:/exp2c/s1
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp2c/s0
+add wave -position 6 -format Logic -height 17 -editable 2 Edit:/exp2c/s0
+run -all
+# 
+# Internal Error: In tclprim_ApplyStimulus for /exp2c/s1 "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /exp2c/s2 "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /exp2c/s0 "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+add wave -position insertpoint  \
+sim:/exp2c/m
+add wave -position insertpoint  \
+sim:/exp2c/m
+add wave -position insertpoint  \
+sim:/exp2c/CY
+restart -f
+run -all
+add wave -position 5 -format Logic -height 17 -editable 2 Edit:/exp2c/s0
+quit -sim
+vsim work.mux8to4
+# vsim work.mux8to4 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux8to4(seletor)
+# Loading work.mux2to1(combinacional)
+add wave -position insertpoint  \
+sim:/mux8to4/a
+wave create -driver freeze -pattern constant -value 1010 -range 3 0 -starttime 0ps -endtime 1000ps sim:/mux8to4/a
+wave create -driver freeze -pattern constant -value 0101 -range 3 0 -starttime 0ps -endtime 1000ps sim:/mux8to4/b
+wave create -driver freeze -pattern clock -initialvalue 1 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux8to4/s0
+add wave -position insertpoint  \
+sim:/mux8to4/m
+# Load canceled
+run -all
+quit -sim
+vsim work.somador4bits
+# vsim work.somador4bits 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.somador4bits(soma)
+# Loading work.somadorcompleto(soma)
+wave create -driver freeze -pattern constant -value 0110 -range 3 0 -starttime 0ps -endtime 1000ps sim:/somador4bits/a
+wave create -driver freeze -pattern constant -value 1101 -range 3 0 -starttime 0ps -endtime 1000ps sim:/somador4bits/b
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/somador4bits/s
+add wave -position insertpoint  \
+sim:/somador4bits/soma
+add wave -position insertpoint  \
+sim:/somador4bits/cout
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /somador4bits/s "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+quit -sim

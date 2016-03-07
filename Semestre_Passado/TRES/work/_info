@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files (x86)\altera\13.1
+Eexp3a
+Z0 w1445443238
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dD:\LOGICOS\TRES
+Z4 8D:/LOGICOS/TRES/Exp3a.vhd
+Z5 FD:/LOGICOS/TRES/Exp3a.vhd
+l0
+L3
+V@MjJFESLiSkm`fX`Dgg1j3
+!s100 Q1ZhCET6b^Sj^oZXMV1TO2
+Z6 OV;C;10.1d;51
+32
+!i10b 1
+Z7 !s108 1445443281.753000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/LOGICOS/TRES/Exp3a.vhd|
+Z9 !s107 D:/LOGICOS/TRES/Exp3a.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Aexperimento
+R1
+R2
+DEx4 work 5 exp3a 0 22 @MjJFESLiSkm`fX`Dgg1j3
+l26
+L8
+V=c;OGAXoDhN6ZIGPL>=9g2
+!s100 5EQYJa>Ca3dz0WEA[8OYG2
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Effd
+Z12 w1444862560
+R1
+R2
+R3
+Z13 8D:/LOGICOS/TRES/ffD.vhd
+Z14 FD:/LOGICOS/TRES/ffD.vhd
+l0
+L3
+Vi@JgifT^M3Z0GzLocg]J;2
+R6
+32
+Z15 !s108 1445441791.770000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/LOGICOS/TRES/ffD.vhd|
+Z17 !s107 D:/LOGICOS/TRES/ffD.vhd|
+R10
+R11
+!s100 ?@4I2Q:I<Pc@zPl]VaH0d0
+!i10b 1
+Affd_comp
+R1
+R2
+DEx4 work 3 ffd 0 22 i@JgifT^M3Z0GzLocg]J;2
+l9
+L8
+Vde39j?Z6K1hPTB2T^O:OR0
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 nRaAL2]HcGVZUiM@Jgc9O0
+!i10b 1
+Esomador4bits
+Z18 w1444862480
+R1
+R2
+R3
+Z19 8D:/LOGICOS/TRES/somador4bits.vhd
+Z20 FD:/LOGICOS/TRES/somador4bits.vhd
+l0
+L4
+Vl2L@j5?_6M8Pb@L5onbOg3
+R6
+32
+Z21 !s108 1445441792.360000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/LOGICOS/TRES/somador4bits.vhd|
+Z23 !s107 D:/LOGICOS/TRES/somador4bits.vhd|
+R10
+R11
+!s100 <<iMUEJ7?VGQ@=o2Y]JOb3
+!i10b 1
+Asoma
+R1
+R2
+DEx4 work 12 somador4bits 0 22 l2L@j5?_6M8Pb@L5onbOg3
+l21
+L11
+Vb3M;Jn:M1UkSmcd?hzO]z1
+R6
+32
+R21
+R22
+R23
+R10
+R11
+!s100 zV1IUC6UYl=AF8FGD<[8^1
+!i10b 1
+Esomadorcompleto
+Z24 w1444862380
+R1
+R2
+R3
+Z25 8D:/LOGICOS/TRES/SomadorCompleto.vhd
+Z26 FD:/LOGICOS/TRES/SomadorCompleto.vhd
+l0
+L4
+Vd>XPPj4zT7]zmBEVb;<mX3
+R6
+32
+Z27 !s108 1445441793.003000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/LOGICOS/TRES/SomadorCompleto.vhd|
+Z29 !s107 D:/LOGICOS/TRES/SomadorCompleto.vhd|
+R10
+R11
+!s100 5b3W@M6X05jG8SgkK4@H`0
+!i10b 1
+Asoma
+R1
+R2
+DEx4 work 15 somadorcompleto 0 22 d>XPPj4zT7]zmBEVb;<mX3
+l9
+L8
+Va<^S=Q_0Qzm1Z:e:W:WeB1
+R6
+32
+R27
+R28
+R29
+R10
+R11
+!s100 ieGe@mU:l[GG;mSHAHHXM2
+!i10b 1

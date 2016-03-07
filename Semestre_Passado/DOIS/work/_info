@@ -1,0 +1,215 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files (x86)\altera\13.1
+Eexp2a
+Z0 w1442443422
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dE:\LOGICOS\DOIS
+Z4 8E:/LOGICOS/DOIS/exp2a.vhd
+Z5 FE:/LOGICOS/DOIS/exp2a.vhd
+l0
+L4
+V1EKWf8JJZ7K>:Z;Vb[46z2
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1442444091.980000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/LOGICOS/DOIS/exp2a.vhd|
+Z9 !s107 E:/LOGICOS/DOIS/exp2a.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 MJ_^mb;UjEn=ILd@eT3E63
+!i10b 1
+Aa
+R1
+R2
+DEx4 work 5 exp2a 0 22 1EKWf8JJZ7K>:Z;Vb[46z2
+l9
+L8
+VZj]ZaU_MFdc4VkmfAkWbd0
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 2`AYZ^Cek4]VWFT0;BHMX2
+!i10b 1
+Eexp2c
+Z12 w1442870050
+R1
+R2
+R3
+Z13 8E:/LOGICOS/DOIS/exp2c.vhd
+Z14 FE:/LOGICOS/DOIS/exp2c.vhd
+l0
+L4
+VY=5e=6g3L^9mkR;`Bd>J11
+!s100 3]?mI:WLXN^;mkH8li[CA1
+R6
+32
+!i10b 1
+Z15 !s108 1442870049.622000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/LOGICOS/DOIS/exp2c.vhd|
+Z17 !s107 E:/LOGICOS/DOIS/exp2c.vhd|
+R10
+R11
+Asomador
+R1
+R2
+DEx4 work 5 exp2c 0 22 Y=5e=6g3L^9mkR;`Bd>J11
+l29
+L11
+VK87zW[Cjb<9RBI2HBS4C[2
+!s100 LUm6EPVdFd@6>QF>go0c13
+R6
+32
+!i10b 1
+R15
+R16
+R17
+R10
+R11
+Emux2to1
+Z18 w1442441898
+R1
+R2
+R3
+Z19 8E:/LOGICOS/DOIS/Mux2to1.vhd
+Z20 FE:/LOGICOS/DOIS/Mux2to1.vhd
+l0
+L4
+V=Nk;ZgVc1AFE1XDZl[bWS1
+R6
+32
+Z21 !s108 1442446177.442000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/LOGICOS/DOIS/Mux2to1.vhd|
+Z23 !s107 E:/LOGICOS/DOIS/Mux2to1.vhd|
+R10
+R11
+!s100 U=^0zR=:oeVniEfY7H3lM1
+!i10b 1
+Acombinacional
+R1
+R2
+DEx4 work 7 mux2to1 0 22 =Nk;ZgVc1AFE1XDZl[bWS1
+l9
+L8
+VZCnW6Q_aS0Y_5hQagmPHf1
+R6
+32
+R21
+R22
+R23
+R10
+R11
+!s100 iFYhaMDmi]IQe8<9<F4kh0
+!i10b 1
+Emux8to4
+Z24 w1442444086
+R1
+R2
+R3
+Z25 8E:/LOGICOS/DOIS/Mux8to4.vhd
+Z26 FE:/LOGICOS/DOIS/Mux8to4.vhd
+l0
+L4
+VcY918YNcG`Se;QOQo<X:T1
+R6
+32
+Z27 !s108 1442446178.129000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/LOGICOS/DOIS/Mux8to4.vhd|
+Z29 !s107 E:/LOGICOS/DOIS/Mux8to4.vhd|
+R10
+R11
+!s100 e8IzN5l>0T>mY679Z`Fij3
+!i10b 1
+Aseletor
+R1
+R2
+DEx4 work 7 mux8to4 0 22 cY918YNcG`Se;QOQo<X:T1
+l16
+L9
+VXjGUbzm_FzQ:dK?21VUlR3
+R6
+32
+R27
+R28
+R29
+R10
+R11
+!s100 _4:3CUHh7bUDB[O<^>W4K3
+!i10b 1
+Esomador4bits
+Z30 w1442446564
+R1
+R2
+R3
+Z31 8E:/LOGICOS/DOIS/somador4bits.vhd
+Z32 FE:/LOGICOS/DOIS/somador4bits.vhd
+l0
+L4
+Vl2L@j5?_6M8Pb@L5onbOg3
+R6
+32
+Z33 !s108 1442446566.698000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/LOGICOS/DOIS/somador4bits.vhd|
+Z35 !s107 E:/LOGICOS/DOIS/somador4bits.vhd|
+R10
+R11
+!s100 <<iMUEJ7?VGQ@=o2Y]JOb3
+!i10b 1
+Asoma
+R1
+R2
+DEx4 work 12 somador4bits 0 22 l2L@j5?_6M8Pb@L5onbOg3
+l21
+L11
+Vb3M;Jn:M1UkSmcd?hzO]z1
+R6
+32
+R33
+R34
+R35
+R10
+R11
+!s100 zV1IUC6UYl=AF8FGD<[8^1
+!i10b 1
+Esomadorcompleto
+Z36 w1442444856
+R1
+R2
+R3
+Z37 8E:/LOGICOS/DOIS/SomadorCompleto.vhd
+Z38 FE:/LOGICOS/DOIS/SomadorCompleto.vhd
+l0
+L4
+Vd>XPPj4zT7]zmBEVb;<mX3
+R6
+32
+Z39 !s108 1442446178.893000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/LOGICOS/DOIS/SomadorCompleto.vhd|
+Z41 !s107 E:/LOGICOS/DOIS/SomadorCompleto.vhd|
+R10
+R11
+!s100 5b3W@M6X05jG8SgkK4@H`0
+!i10b 1
+Asoma
+R1
+R2
+DEx4 work 15 somadorcompleto 0 22 d>XPPj4zT7]zmBEVb;<mX3
+l9
+L8
+Va<^S=Q_0Qzm1Z:e:W:WeB1
+R6
+32
+R39
+R40
+R41
+R10
+R11
+!s100 ieGe@mU:l[GG;mSHAHHXM2
+!i10b 1

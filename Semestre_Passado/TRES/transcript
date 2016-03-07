@@ -1,0 +1,86 @@
+# Compile of Exp3a.vhd was successful.
+# Compile of ffD.vhd was successful.
+# Compile of somador4bits.vhd was successful.
+# Compile of SomadorCompleto.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -gui work.exp3a
+# vsim -gui work.exp3a 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exp3a(experimento)
+# Loading work.ffd(ffd_comp)
+# Loading work.somador4bits(soma)
+# Loading work.somadorcompleto(soma)
+add wave -position insertpoint  \
+sim:/exp3a/clk
+force -freeze sim:/exp3a/clk 1 0, 0 {25 ps} -r 50
+wave create -driver freeze -pattern clock -initialvalue 0 -period 25ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp3a/clk
+force -freeze sim:/exp3a/e 0 0 -cancel 51
+add wave -position insertpoint  \
+sim:/exp3a/y
+add wave -position insertpoint  \
+sim:/exp3a/q1
+add wave -position insertpoint  \
+sim:/exp3a/q2
+add wave -position insertpoint  \
+sim:/exp3a/s
+add wave -position insertpoint  \
+sim:/exp3a/uno
+add wave -position insertpoint  \
+sim:/exp3a/r
+add wave -position insertpoint  \
+sim:/exp3a/banana
+run -all
+restart -f
+force -freeze sim:/exp3a/e 0 0 -cancel 51
+force -freeze sim:/exp3a/q1 0000 0 -cancel 51
+force -freeze sim:/exp3a/q2 0000 0 -cancel 51
+run -all
+add wave -position insertpoint  \
+sim:/exp3a/r
+# WARNING: No extended dataflow license exists
+# Compile of Exp3a.vhd was successful.
+restart -f
+# Loading work.exp3a(experimento)
+quit -sim
+# Compile of Exp3a.vhd was successful.
+vsim -gui work.exp3a
+# vsim -gui work.exp3a 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exp3a(experimento)
+# Loading work.ffd(ffd_comp)
+# Loading work.somador4bits(soma)
+# Loading work.somadorcompleto(soma)
+wave create -driver freeze -pattern clock -initialvalue U -period 50ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exp3a/clk
+force -freeze sim:/exp3a/r 0 0 -cancel 51
+add wave -position insertpoint  \
+sim:/exp3a/y
+add wave -position insertpoint  \
+sim:/exp3a/q1
+add wave -position insertpoint  \
+sim:/exp3a/q2
+add wave -position insertpoint  \
+sim:/exp3a/s
+add wave -position insertpoint  \
+sim:/exp3a/r
+add wave -position insertpoint  \
+sim:/exp3a/banana
+run -all
+restart -f
+force -freeze sim:/exp3a/r 0 0 -cancel 101
+run -all
+force -freeze sim:/exp3a/s 0000 0 -cancel 101
+force -freeze sim:/exp3a/q2 0000 0 -cancel 101
+run -all
+# 
+# Internal Error: In tclprim_ApplyStimulus for /exp3a/clk "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+restart -f
+force -freeze sim:/exp3a/q1 0000 0 -cancel 101
+force -freeze sim:/exp3a/q2 0000 00 -cancel 101
+force -freeze sim:/exp3a/r 0 0 -cancel 101
+run -all

@@ -1,0 +1,35 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+-- Código para um somador completo de 4 bits com dois mux 4bits de entrada
+ENTITY exp2c IS
+	PORT (a, b, c, d: in std_logic_vector(3 downto 0);
+    s0, s1, s2: in std_logic;
+    m: out std_logic_vector(3 downto 0);
+	CY: out std_logic);
+END exp2c;
+
+ARCHITECTURE Somador OF exp2c IS
+  
+COMPONENT Mux8to4 IS
+  PORT (a, b: in std_logic_vector(3 downto 0);
+    s0: in std_logic;
+    m: out std_logic_vector(3 downto 0));
+END COMPONENT Mux8to4;
+
+COMPONENT somador4bits IS
+  PORT (a, b: in std_logic_vector(3 downto 0);
+    s: in std_logic;
+    soma: out std_logic_vector(3 downto 0);
+    cout: out std_logic);
+END ENTITY somador4bits;
+
+SIGNAL soma_a : std_logic_vector(3 downto 0);
+SIGNAL soma_b : std_logic_vector(3 downto 0);
+
+BEGIN
+  FA0: Mux8to4 port map (a, b, s0, soma_a);
+  FA1: Mux8to4 port map (c, d, s1, soma_b);
+  FA2: somador4bits port map (soma_a, soma_b, s2, m, CY);
+END Somador;
+
+

@@ -1,0 +1,33 @@
+D:/LOGICOS/TRES/somador4bits.vhd {1 {vcom -work work -2002 -explicit D:/LOGICOS/TRES/somador4bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity somador4bits
+-- Compiling architecture Soma of somador4bits
+
+} {} {}} D:/LOGICOS/TRES/SomadorCompleto.vhd {1 {vcom -work work -2002 -explicit D:/LOGICOS/TRES/SomadorCompleto.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SomadorCompleto
+-- Compiling architecture Soma of SomadorCompleto
+
+} {} {}} D:/LOGICOS/TRES/ffD.vhd {1 {vcom -work work -2002 -explicit D:/LOGICOS/TRES/ffD.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ffD
+-- Compiling architecture ffD_comp of ffD
+
+} {} {}} D:/LOGICOS/TRES/Exp3a.vhd {1 {vcom -work work -2002 -explicit D:/LOGICOS/TRES/Exp3a.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Exp3a
+-- Compiling architecture experimento of Exp3a
+
+} {} {}}

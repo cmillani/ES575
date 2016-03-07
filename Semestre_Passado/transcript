@@ -1,0 +1,27 @@
+# Compile of Exp2c.vhd was successful.
+# Compile of Exp2c.vhd failed with 2 errors.
+# Compile of Exp2c.vhd failed with 2 errors.
+# Compile of Exp2c.vhd failed with 2 errors.
+# Compile of Exp2c.vhd failed with 2 errors.
+# Compile of Exp2c.vhd was successful.
+# Compile of Exp2c.vhd failed with 2 errors.
+# Compile of Exp2c.vhd failed with 1 errors.
+# Compile of Exp2c.vhd was successful.
+do Exp2c.do
+# ** Error: (vish-4014) No objects found matching 'NewSig:sim:/exp2c/x'.
+# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
+# See Command Reference manual for pattern specific <args>
+# Error in macro ./Exp2c.do line 1
+# (vish-4014) No objects found matching 'NewSig:sim:/exp2c/x'.
+# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
+# See Command Reference manual for pattern specific <args>
+#     while executing
+# "wave create -driver freeze -pattern clock -initialvalue 0 -period 200ps -dutycycle 50 -starttime 0ps -endtime 4000ps sim:/exp2c/x"
+# Compile of Exp2c.vhd was successful.
+vsim -gui work.exp2c
+# vsim -gui work.exp2c 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exp2c(exp2c_comportamento)
+do Exp2c.do

@@ -1,0 +1,41 @@
+E:/LOGICOS/DOIS/Mux8to4.vhd {1 {vcom -work work -2002 -explicit E:/LOGICOS/DOIS/Mux8to4.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux8to4
+-- Compiling architecture Seletor of Mux8to4
+
+} {} {}} E:/LOGICOS/DOIS/exp2c.vhd {1 {vcom -work work -2002 -explicit E:/LOGICOS/DOIS/exp2c.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity exp2c
+-- Compiling architecture Somador of exp2c
+
+} {} {}} E:/LOGICOS/DOIS/somador4bits.vhd {1 {vcom -work work -2002 -explicit E:/LOGICOS/DOIS/somador4bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity somador4bits
+-- Compiling architecture Soma of somador4bits
+
+} {} {}} E:/LOGICOS/DOIS/Mux2to1.vhd {1 {vcom -work work -2002 -explicit E:/LOGICOS/DOIS/Mux2to1.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux2to1
+-- Compiling architecture Combinacional of Mux2to1
+
+} {} {}} E:/LOGICOS/DOIS/SomadorCompleto.vhd {1 {vcom -work work -2002 -explicit E:/LOGICOS/DOIS/SomadorCompleto.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SomadorCompleto
+-- Compiling architecture Soma of SomadorCompleto
+
+} {} {}}

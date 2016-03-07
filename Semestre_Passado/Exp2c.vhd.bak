@@ -1,0 +1,14 @@
+-- Declarações: contém a lista das bibliotecas usadas no projeto
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+-- Especifica os pinos de entrada e saída do circuito.
+ENTITY Exp2c IS
+PORT (x,y,cin : IN STD_LOGIC; -- Sinais de entrada
+s, cout : OUT STD_LOGIC); -- Sinal de saída
+END Exp2c;
+-- Comportamento do circuito
+ARCHITECTURE Exp2c_comportamento OF Exp2c IS
+BEGIN
+s <= cin XOR (x XOR y);
+cout <= ((x XOR y) AND cin) OR ((x AND y))
+END Exp2c_comportamento;
