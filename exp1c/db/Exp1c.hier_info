@@ -1,0 +1,230 @@
+|Exp1c
+SW[0] => Mux5to1w3b:BANANA.y[0]
+SW[0] => LEDR[0].DATAIN
+SW[1] => Mux5to1w3b:BANANA.y[1]
+SW[1] => LEDR[1].DATAIN
+SW[2] => Mux5to1w3b:BANANA.y[2]
+SW[2] => LEDR[2].DATAIN
+SW[3] => Mux5to1w3b:BANANA.x[0]
+SW[3] => LEDR[3].DATAIN
+SW[4] => Mux5to1w3b:BANANA.x[1]
+SW[4] => LEDR[4].DATAIN
+SW[5] => Mux5to1w3b:BANANA.x[2]
+SW[5] => LEDR[5].DATAIN
+SW[6] => Mux5to1w3b:BANANA.w[0]
+SW[6] => LEDR[6].DATAIN
+SW[7] => Mux5to1w3b:BANANA.w[1]
+SW[7] => LEDR[7].DATAIN
+SW[8] => Mux5to1w3b:BANANA.w[2]
+SW[8] => LEDR[8].DATAIN
+SW[9] => Mux5to1w3b:BANANA.v[0]
+SW[9] => LEDR[9].DATAIN
+SW[10] => Mux5to1w3b:BANANA.v[1]
+SW[10] => LEDR[10].DATAIN
+SW[11] => Mux5to1w3b:BANANA.v[2]
+SW[11] => LEDR[11].DATAIN
+SW[12] => Mux5to1w3b:BANANA.u[0]
+SW[12] => LEDR[12].DATAIN
+SW[13] => Mux5to1w3b:BANANA.u[1]
+SW[13] => LEDR[13].DATAIN
+SW[14] => Mux5to1w3b:BANANA.u[2]
+SW[14] => LEDR[14].DATAIN
+SW[15] => Mux5to1w3b:BANANA.s[0]
+SW[15] => LEDR[15].DATAIN
+SW[16] => Mux5to1w3b:BANANA.s[1]
+SW[16] => LEDR[16].DATAIN
+SW[17] => Mux5to1w3b:BANANA.s[2]
+SW[17] => LEDR[17].DATAIN
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= SW[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= SW[8].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] <= SW[9].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[10] <= SW[10].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[11] <= SW[11].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[12] <= SW[12].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[13] <= SW[13].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[14] <= SW[14].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[15] <= SW[15].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[16] <= SW[16].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[17] <= SW[17].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[0] <= Mux5to1w3b:BANANA.m[0]
+LEDG[1] <= Mux5to1w3b:BANANA.m[1]
+LEDG[2] <= Mux5to1w3b:BANANA.m[2]
+LEDG[3] <= <GND>
+LEDG[4] <= <GND>
+LEDG[5] <= <GND>
+LEDG[6] <= <GND>
+LEDG[7] <= <GND>
+
+
+|Exp1c|Mux5to1w3b:BANANA
+s[0] => Mux5to1w1b:FA0.s[0]
+s[0] => Mux5to1w1b:FA1.s[0]
+s[0] => Mux5to1w1b:FA2.s[0]
+s[1] => Mux5to1w1b:FA0.s[1]
+s[1] => Mux5to1w1b:FA1.s[1]
+s[1] => Mux5to1w1b:FA2.s[1]
+s[2] => Mux5to1w1b:FA0.s[2]
+s[2] => Mux5to1w1b:FA1.s[2]
+s[2] => Mux5to1w1b:FA2.s[2]
+u[0] => Mux5to1w1b:FA0.u
+u[1] => Mux5to1w1b:FA1.u
+u[2] => Mux5to1w1b:FA2.u
+v[0] => Mux5to1w1b:FA0.v
+v[1] => Mux5to1w1b:FA1.v
+v[2] => Mux5to1w1b:FA2.v
+w[0] => Mux5to1w1b:FA0.w
+w[1] => Mux5to1w1b:FA1.w
+w[2] => Mux5to1w1b:FA2.w
+x[0] => Mux5to1w1b:FA0.x
+x[1] => Mux5to1w1b:FA1.x
+x[2] => Mux5to1w1b:FA2.x
+y[0] => Mux5to1w1b:FA0.y
+y[1] => Mux5to1w1b:FA1.y
+y[2] => Mux5to1w1b:FA2.y
+m[0] <= Mux5to1w1b:FA0.m
+m[1] <= Mux5to1w1b:FA1.m
+m[2] <= Mux5to1w1b:FA2.m
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA0
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA0|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA0|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA0|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA0|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA1
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA1|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA1|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA1|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA1|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA2
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA2|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA2|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA2|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1c|Mux5to1w3b:BANANA|Mux5to1w1b:FA2|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

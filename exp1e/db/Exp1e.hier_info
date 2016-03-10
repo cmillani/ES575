@@ -1,0 +1,1104 @@
+|Exp1e
+SW[0] => Mux5to1w3b:NANISBOY.y[0]
+SW[0] => Mux5to1w3b:GAIA.x[0]
+SW[0] => Mux5to1w3b:ZARM.w[0]
+SW[0] => Mux5to1w3b:MATREIRO.v[0]
+SW[0] => Mux5to1w3b:CAPITAOPOLUICAO.u[0]
+SW[0] => LEDR[0].DATAIN
+SW[1] => Mux5to1w3b:NANISBOY.y[1]
+SW[1] => Mux5to1w3b:GAIA.x[1]
+SW[1] => Mux5to1w3b:ZARM.w[1]
+SW[1] => Mux5to1w3b:MATREIRO.v[1]
+SW[1] => Mux5to1w3b:CAPITAOPOLUICAO.u[1]
+SW[1] => LEDR[1].DATAIN
+SW[2] => Mux5to1w3b:NANISBOY.y[2]
+SW[2] => Mux5to1w3b:GAIA.x[2]
+SW[2] => Mux5to1w3b:ZARM.w[2]
+SW[2] => Mux5to1w3b:MATREIRO.v[2]
+SW[2] => Mux5to1w3b:CAPITAOPOLUICAO.u[2]
+SW[2] => LEDR[2].DATAIN
+SW[3] => Mux5to1w3b:NANISBOY.x[0]
+SW[3] => Mux5to1w3b:GAIA.w[0]
+SW[3] => Mux5to1w3b:ZARM.v[0]
+SW[3] => Mux5to1w3b:MATREIRO.u[0]
+SW[3] => Mux5to1w3b:CAPITAOPOLUICAO.y[0]
+SW[3] => LEDR[3].DATAIN
+SW[4] => Mux5to1w3b:NANISBOY.x[1]
+SW[4] => Mux5to1w3b:GAIA.w[1]
+SW[4] => Mux5to1w3b:ZARM.v[1]
+SW[4] => Mux5to1w3b:MATREIRO.u[1]
+SW[4] => Mux5to1w3b:CAPITAOPOLUICAO.y[1]
+SW[4] => LEDR[4].DATAIN
+SW[5] => Mux5to1w3b:NANISBOY.x[2]
+SW[5] => Mux5to1w3b:GAIA.w[2]
+SW[5] => Mux5to1w3b:ZARM.v[2]
+SW[5] => Mux5to1w3b:MATREIRO.u[2]
+SW[5] => Mux5to1w3b:CAPITAOPOLUICAO.y[2]
+SW[5] => LEDR[5].DATAIN
+SW[6] => Mux5to1w3b:NANISBOY.w[0]
+SW[6] => Mux5to1w3b:GAIA.v[0]
+SW[6] => Mux5to1w3b:ZARM.u[0]
+SW[6] => Mux5to1w3b:MATREIRO.y[0]
+SW[6] => Mux5to1w3b:CAPITAOPOLUICAO.x[0]
+SW[6] => LEDR[6].DATAIN
+SW[7] => Mux5to1w3b:NANISBOY.w[1]
+SW[7] => Mux5to1w3b:GAIA.v[1]
+SW[7] => Mux5to1w3b:ZARM.u[1]
+SW[7] => Mux5to1w3b:MATREIRO.y[1]
+SW[7] => Mux5to1w3b:CAPITAOPOLUICAO.x[1]
+SW[7] => LEDR[7].DATAIN
+SW[8] => Mux5to1w3b:NANISBOY.w[2]
+SW[8] => Mux5to1w3b:GAIA.v[2]
+SW[8] => Mux5to1w3b:ZARM.u[2]
+SW[8] => Mux5to1w3b:MATREIRO.y[2]
+SW[8] => Mux5to1w3b:CAPITAOPOLUICAO.x[2]
+SW[8] => LEDR[8].DATAIN
+SW[9] => Mux5to1w3b:NANISBOY.v[0]
+SW[9] => Mux5to1w3b:GAIA.u[0]
+SW[9] => Mux5to1w3b:ZARM.y[0]
+SW[9] => Mux5to1w3b:MATREIRO.x[0]
+SW[9] => Mux5to1w3b:CAPITAOPOLUICAO.w[0]
+SW[9] => LEDR[9].DATAIN
+SW[10] => Mux5to1w3b:NANISBOY.v[1]
+SW[10] => Mux5to1w3b:GAIA.u[1]
+SW[10] => Mux5to1w3b:ZARM.y[1]
+SW[10] => Mux5to1w3b:MATREIRO.x[1]
+SW[10] => Mux5to1w3b:CAPITAOPOLUICAO.w[1]
+SW[10] => LEDR[10].DATAIN
+SW[11] => Mux5to1w3b:NANISBOY.v[2]
+SW[11] => Mux5to1w3b:GAIA.u[2]
+SW[11] => Mux5to1w3b:ZARM.y[2]
+SW[11] => Mux5to1w3b:MATREIRO.x[2]
+SW[11] => Mux5to1w3b:CAPITAOPOLUICAO.w[2]
+SW[11] => LEDR[11].DATAIN
+SW[12] => Mux5to1w3b:NANISBOY.u[0]
+SW[12] => Mux5to1w3b:GAIA.y[0]
+SW[12] => Mux5to1w3b:ZARM.x[0]
+SW[12] => Mux5to1w3b:MATREIRO.w[0]
+SW[12] => Mux5to1w3b:CAPITAOPOLUICAO.v[0]
+SW[12] => LEDR[12].DATAIN
+SW[13] => Mux5to1w3b:NANISBOY.u[1]
+SW[13] => Mux5to1w3b:GAIA.y[1]
+SW[13] => Mux5to1w3b:ZARM.x[1]
+SW[13] => Mux5to1w3b:MATREIRO.w[1]
+SW[13] => Mux5to1w3b:CAPITAOPOLUICAO.v[1]
+SW[13] => LEDR[13].DATAIN
+SW[14] => Mux5to1w3b:NANISBOY.u[2]
+SW[14] => Mux5to1w3b:GAIA.y[2]
+SW[14] => Mux5to1w3b:ZARM.x[2]
+SW[14] => Mux5to1w3b:MATREIRO.w[2]
+SW[14] => Mux5to1w3b:CAPITAOPOLUICAO.v[2]
+SW[14] => LEDR[14].DATAIN
+SW[15] => Mux5to1w3b:NANISBOY.s[0]
+SW[15] => Mux5to1w3b:GAIA.s[0]
+SW[15] => Mux5to1w3b:ZARM.s[0]
+SW[15] => Mux5to1w3b:MATREIRO.s[0]
+SW[15] => Mux5to1w3b:CAPITAOPOLUICAO.s[0]
+SW[15] => LEDR[15].DATAIN
+SW[16] => Mux5to1w3b:NANISBOY.s[1]
+SW[16] => Mux5to1w3b:GAIA.s[1]
+SW[16] => Mux5to1w3b:ZARM.s[1]
+SW[16] => Mux5to1w3b:MATREIRO.s[1]
+SW[16] => Mux5to1w3b:CAPITAOPOLUICAO.s[1]
+SW[16] => LEDR[16].DATAIN
+SW[17] => Mux5to1w3b:NANISBOY.s[2]
+SW[17] => Mux5to1w3b:GAIA.s[2]
+SW[17] => Mux5to1w3b:ZARM.s[2]
+SW[17] => Mux5to1w3b:MATREIRO.s[2]
+SW[17] => Mux5to1w3b:CAPITAOPOLUICAO.s[2]
+SW[17] => LEDR[17].DATAIN
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= SW[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= SW[8].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] <= SW[9].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[10] <= SW[10].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[11] <= SW[11].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[12] <= SW[12].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[13] <= SW[13].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[14] <= SW[14].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[15] <= SW[15].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[16] <= SW[16].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[17] <= SW[17].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] <= Decoder:CORACAO.HEX0[6]
+HEX0[5] <= Decoder:CORACAO.HEX0[5]
+HEX0[4] <= Decoder:CORACAO.HEX0[4]
+HEX0[3] <= Decoder:CORACAO.HEX0[3]
+HEX0[2] <= Decoder:CORACAO.HEX0[2]
+HEX0[1] <= Decoder:CORACAO.HEX0[1]
+HEX0[0] <= Decoder:CORACAO.HEX0[0]
+HEX1[6] <= Decoder:AGUA.HEX0[6]
+HEX1[5] <= Decoder:AGUA.HEX0[5]
+HEX1[4] <= Decoder:AGUA.HEX0[4]
+HEX1[3] <= Decoder:AGUA.HEX0[3]
+HEX1[2] <= Decoder:AGUA.HEX0[2]
+HEX1[1] <= Decoder:AGUA.HEX0[1]
+HEX1[0] <= Decoder:AGUA.HEX0[0]
+HEX2[6] <= Decoder:VENTO.HEX0[6]
+HEX2[5] <= Decoder:VENTO.HEX0[5]
+HEX2[4] <= Decoder:VENTO.HEX0[4]
+HEX2[3] <= Decoder:VENTO.HEX0[3]
+HEX2[2] <= Decoder:VENTO.HEX0[2]
+HEX2[1] <= Decoder:VENTO.HEX0[1]
+HEX2[0] <= Decoder:VENTO.HEX0[0]
+HEX3[6] <= Decoder:FOGO.HEX0[6]
+HEX3[5] <= Decoder:FOGO.HEX0[5]
+HEX3[4] <= Decoder:FOGO.HEX0[4]
+HEX3[3] <= Decoder:FOGO.HEX0[3]
+HEX3[2] <= Decoder:FOGO.HEX0[2]
+HEX3[1] <= Decoder:FOGO.HEX0[1]
+HEX3[0] <= Decoder:FOGO.HEX0[0]
+HEX4[6] <= Decoder:TERRA.HEX0[6]
+HEX4[5] <= Decoder:TERRA.HEX0[5]
+HEX4[4] <= Decoder:TERRA.HEX0[4]
+HEX4[3] <= Decoder:TERRA.HEX0[3]
+HEX4[2] <= Decoder:TERRA.HEX0[2]
+HEX4[1] <= Decoder:TERRA.HEX0[1]
+HEX4[0] <= Decoder:TERRA.HEX0[0]
+
+
+|Exp1e|Mux5to1w3b:NANISBOY
+s[0] => Mux5to1w1b:BISCOITO.s[0]
+s[0] => Mux5to1w1b:CARAMELO.s[0]
+s[0] => Mux5to1w1b:CHOCOLATE.s[0]
+s[1] => Mux5to1w1b:BISCOITO.s[1]
+s[1] => Mux5to1w1b:CARAMELO.s[1]
+s[1] => Mux5to1w1b:CHOCOLATE.s[1]
+s[2] => Mux5to1w1b:BISCOITO.s[2]
+s[2] => Mux5to1w1b:CARAMELO.s[2]
+s[2] => Mux5to1w1b:CHOCOLATE.s[2]
+u[0] => Mux5to1w1b:BISCOITO.u
+u[1] => Mux5to1w1b:CARAMELO.u
+u[2] => Mux5to1w1b:CHOCOLATE.u
+v[0] => Mux5to1w1b:BISCOITO.v
+v[1] => Mux5to1w1b:CARAMELO.v
+v[2] => Mux5to1w1b:CHOCOLATE.v
+w[0] => Mux5to1w1b:BISCOITO.w
+w[1] => Mux5to1w1b:CARAMELO.w
+w[2] => Mux5to1w1b:CHOCOLATE.w
+x[0] => Mux5to1w1b:BISCOITO.x
+x[1] => Mux5to1w1b:CARAMELO.x
+x[2] => Mux5to1w1b:CHOCOLATE.x
+y[0] => Mux5to1w1b:BISCOITO.y
+y[1] => Mux5to1w1b:CARAMELO.y
+y[2] => Mux5to1w1b:CHOCOLATE.y
+m[0] <= Mux5to1w1b:BISCOITO.m
+m[1] <= Mux5to1w1b:CARAMELO.m
+m[2] <= Mux5to1w1b:CHOCOLATE.m
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:BISCOITO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:BISCOITO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:BISCOITO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:BISCOITO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:BISCOITO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CARAMELO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CARAMELO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CARAMELO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CARAMELO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CARAMELO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CHOCOLATE
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CHOCOLATE|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CHOCOLATE|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CHOCOLATE|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:NANISBOY|Mux5to1w1b:CHOCOLATE|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA
+s[0] => Mux5to1w1b:BISCOITO.s[0]
+s[0] => Mux5to1w1b:CARAMELO.s[0]
+s[0] => Mux5to1w1b:CHOCOLATE.s[0]
+s[1] => Mux5to1w1b:BISCOITO.s[1]
+s[1] => Mux5to1w1b:CARAMELO.s[1]
+s[1] => Mux5to1w1b:CHOCOLATE.s[1]
+s[2] => Mux5to1w1b:BISCOITO.s[2]
+s[2] => Mux5to1w1b:CARAMELO.s[2]
+s[2] => Mux5to1w1b:CHOCOLATE.s[2]
+u[0] => Mux5to1w1b:BISCOITO.u
+u[1] => Mux5to1w1b:CARAMELO.u
+u[2] => Mux5to1w1b:CHOCOLATE.u
+v[0] => Mux5to1w1b:BISCOITO.v
+v[1] => Mux5to1w1b:CARAMELO.v
+v[2] => Mux5to1w1b:CHOCOLATE.v
+w[0] => Mux5to1w1b:BISCOITO.w
+w[1] => Mux5to1w1b:CARAMELO.w
+w[2] => Mux5to1w1b:CHOCOLATE.w
+x[0] => Mux5to1w1b:BISCOITO.x
+x[1] => Mux5to1w1b:CARAMELO.x
+x[2] => Mux5to1w1b:CHOCOLATE.x
+y[0] => Mux5to1w1b:BISCOITO.y
+y[1] => Mux5to1w1b:CARAMELO.y
+y[2] => Mux5to1w1b:CHOCOLATE.y
+m[0] <= Mux5to1w1b:BISCOITO.m
+m[1] <= Mux5to1w1b:CARAMELO.m
+m[2] <= Mux5to1w1b:CHOCOLATE.m
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:BISCOITO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:BISCOITO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:BISCOITO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:BISCOITO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:BISCOITO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CARAMELO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CARAMELO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CARAMELO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CARAMELO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CARAMELO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CHOCOLATE
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CHOCOLATE|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CHOCOLATE|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CHOCOLATE|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:GAIA|Mux5to1w1b:CHOCOLATE|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM
+s[0] => Mux5to1w1b:BISCOITO.s[0]
+s[0] => Mux5to1w1b:CARAMELO.s[0]
+s[0] => Mux5to1w1b:CHOCOLATE.s[0]
+s[1] => Mux5to1w1b:BISCOITO.s[1]
+s[1] => Mux5to1w1b:CARAMELO.s[1]
+s[1] => Mux5to1w1b:CHOCOLATE.s[1]
+s[2] => Mux5to1w1b:BISCOITO.s[2]
+s[2] => Mux5to1w1b:CARAMELO.s[2]
+s[2] => Mux5to1w1b:CHOCOLATE.s[2]
+u[0] => Mux5to1w1b:BISCOITO.u
+u[1] => Mux5to1w1b:CARAMELO.u
+u[2] => Mux5to1w1b:CHOCOLATE.u
+v[0] => Mux5to1w1b:BISCOITO.v
+v[1] => Mux5to1w1b:CARAMELO.v
+v[2] => Mux5to1w1b:CHOCOLATE.v
+w[0] => Mux5to1w1b:BISCOITO.w
+w[1] => Mux5to1w1b:CARAMELO.w
+w[2] => Mux5to1w1b:CHOCOLATE.w
+x[0] => Mux5to1w1b:BISCOITO.x
+x[1] => Mux5to1w1b:CARAMELO.x
+x[2] => Mux5to1w1b:CHOCOLATE.x
+y[0] => Mux5to1w1b:BISCOITO.y
+y[1] => Mux5to1w1b:CARAMELO.y
+y[2] => Mux5to1w1b:CHOCOLATE.y
+m[0] <= Mux5to1w1b:BISCOITO.m
+m[1] <= Mux5to1w1b:CARAMELO.m
+m[2] <= Mux5to1w1b:CHOCOLATE.m
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:BISCOITO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:BISCOITO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:BISCOITO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:BISCOITO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:BISCOITO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CARAMELO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CARAMELO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CARAMELO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CARAMELO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CARAMELO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CHOCOLATE
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CHOCOLATE|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CHOCOLATE|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CHOCOLATE|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:ZARM|Mux5to1w1b:CHOCOLATE|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO
+s[0] => Mux5to1w1b:BISCOITO.s[0]
+s[0] => Mux5to1w1b:CARAMELO.s[0]
+s[0] => Mux5to1w1b:CHOCOLATE.s[0]
+s[1] => Mux5to1w1b:BISCOITO.s[1]
+s[1] => Mux5to1w1b:CARAMELO.s[1]
+s[1] => Mux5to1w1b:CHOCOLATE.s[1]
+s[2] => Mux5to1w1b:BISCOITO.s[2]
+s[2] => Mux5to1w1b:CARAMELO.s[2]
+s[2] => Mux5to1w1b:CHOCOLATE.s[2]
+u[0] => Mux5to1w1b:BISCOITO.u
+u[1] => Mux5to1w1b:CARAMELO.u
+u[2] => Mux5to1w1b:CHOCOLATE.u
+v[0] => Mux5to1w1b:BISCOITO.v
+v[1] => Mux5to1w1b:CARAMELO.v
+v[2] => Mux5to1w1b:CHOCOLATE.v
+w[0] => Mux5to1w1b:BISCOITO.w
+w[1] => Mux5to1w1b:CARAMELO.w
+w[2] => Mux5to1w1b:CHOCOLATE.w
+x[0] => Mux5to1w1b:BISCOITO.x
+x[1] => Mux5to1w1b:CARAMELO.x
+x[2] => Mux5to1w1b:CHOCOLATE.x
+y[0] => Mux5to1w1b:BISCOITO.y
+y[1] => Mux5to1w1b:CARAMELO.y
+y[2] => Mux5to1w1b:CHOCOLATE.y
+m[0] <= Mux5to1w1b:BISCOITO.m
+m[1] <= Mux5to1w1b:CARAMELO.m
+m[2] <= Mux5to1w1b:CHOCOLATE.m
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:BISCOITO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:BISCOITO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:BISCOITO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:BISCOITO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:BISCOITO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CARAMELO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CARAMELO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CARAMELO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CARAMELO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CARAMELO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CHOCOLATE
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:MATREIRO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO
+s[0] => Mux5to1w1b:BISCOITO.s[0]
+s[0] => Mux5to1w1b:CARAMELO.s[0]
+s[0] => Mux5to1w1b:CHOCOLATE.s[0]
+s[1] => Mux5to1w1b:BISCOITO.s[1]
+s[1] => Mux5to1w1b:CARAMELO.s[1]
+s[1] => Mux5to1w1b:CHOCOLATE.s[1]
+s[2] => Mux5to1w1b:BISCOITO.s[2]
+s[2] => Mux5to1w1b:CARAMELO.s[2]
+s[2] => Mux5to1w1b:CHOCOLATE.s[2]
+u[0] => Mux5to1w1b:BISCOITO.u
+u[1] => Mux5to1w1b:CARAMELO.u
+u[2] => Mux5to1w1b:CHOCOLATE.u
+v[0] => Mux5to1w1b:BISCOITO.v
+v[1] => Mux5to1w1b:CARAMELO.v
+v[2] => Mux5to1w1b:CHOCOLATE.v
+w[0] => Mux5to1w1b:BISCOITO.w
+w[1] => Mux5to1w1b:CARAMELO.w
+w[2] => Mux5to1w1b:CHOCOLATE.w
+x[0] => Mux5to1w1b:BISCOITO.x
+x[1] => Mux5to1w1b:CARAMELO.x
+x[2] => Mux5to1w1b:CHOCOLATE.x
+y[0] => Mux5to1w1b:BISCOITO.y
+y[1] => Mux5to1w1b:CARAMELO.y
+y[2] => Mux5to1w1b:CHOCOLATE.y
+m[0] <= Mux5to1w1b:BISCOITO.m
+m[1] <= Mux5to1w1b:CARAMELO.m
+m[2] <= Mux5to1w1b:CHOCOLATE.m
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:BISCOITO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:BISCOITO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:BISCOITO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:BISCOITO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:BISCOITO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CARAMELO
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CARAMELO|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CARAMELO|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CARAMELO|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CARAMELO|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CHOCOLATE
+s[0] => Mux2to1:FA0.s
+s[0] => Mux2to1:FA1.s
+s[1] => Mux2to1:FA2.s
+s[2] => Mux2to1:FA3.s
+u => Mux2to1:FA0.a
+v => Mux2to1:FA0.b
+w => Mux2to1:FA1.a
+x => Mux2to1:FA1.b
+y => Mux2to1:FA3.b
+m <= Mux2to1:FA3.m
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA0
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA1
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA2
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Mux5to1w3b:CAPITAOPOLUICAO|Mux5to1w1b:CHOCOLATE|Mux2to1:FA3
+a => m.IN0
+b => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Decoder:TERRA
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN0
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0[4].DATAIN
+SW[2] => HEX0[5].DATAIN
+HEX0[6] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Decoder:FOGO
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN0
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0[4].DATAIN
+SW[2] => HEX0[5].DATAIN
+HEX0[6] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Decoder:VENTO
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN0
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0[4].DATAIN
+SW[2] => HEX0[5].DATAIN
+HEX0[6] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Decoder:AGUA
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN0
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0[4].DATAIN
+SW[2] => HEX0[5].DATAIN
+HEX0[6] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp1e|Decoder:CORACAO
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[0] => HEX0.IN0
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN1
+SW[1] => HEX0.IN0
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0.IN1
+SW[2] => HEX0[4].DATAIN
+SW[2] => HEX0[5].DATAIN
+HEX0[6] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+
+

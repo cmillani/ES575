@@ -1,0 +1,21 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+-- Multiplexador 5 pra 1 de 1 bit
+
+ENTITY Exp1d IS
+	PORT (SW: in std_logic_vector(17 downto 0);
+	HEX0: out std_logic_vector(6 downto 0);
+END ENTITY Exp1d;
+
+ARCHITECTURE decoder OF Exp1d IS
+	BEGIN
+	
+	HEX(0) <= not SW(0);
+	HEX(1) <= SW(1) XOR SW(0);
+	HEX(2) <= SW(1) XOR SW(0);
+	HEX(3) <= SW(1) NAND SW(0);
+	HEX(4) <= '1';
+	HEX(5) <= '1';
+	HEX(6) <= SW(1);
+END decoder;
