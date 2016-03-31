@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.4 Build 182 03/12/2014 SJ Web Edition"
 
--- DATE "03/31/2016 14:31:58"
+-- DATE "03/31/2016 14:56:00"
 
 -- 
 -- Device: Altera EP4CGX150DF31C7 Package FBGA896
@@ -36,15 +36,15 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ENTITY 	Exp3e IS
     PORT (
 	SW : IN std_logic_vector(17 DOWNTO 0);
-	HEX0 : OUT std_logic_vector(0 TO 6);
-	HEX1 : OUT std_logic_vector(0 TO 6);
-	HEX2 : OUT std_logic_vector(0 TO 6);
-	HEX3 : OUT std_logic_vector(0 TO 6);
-	HEX4 : OUT std_logic_vector(0 TO 6);
-	HEX5 : OUT std_logic_vector(0 TO 6);
-	HEX6 : OUT std_logic_vector(0 TO 6);
-	HEX7 : OUT std_logic_vector(0 TO 6);
-	LEDR : OUT std_logic_vector(17 DOWNTO 0);
+	HEX0 : BUFFER std_logic_vector(0 TO 6);
+	HEX1 : BUFFER std_logic_vector(0 TO 6);
+	HEX2 : BUFFER std_logic_vector(0 TO 6);
+	HEX3 : BUFFER std_logic_vector(0 TO 6);
+	HEX4 : BUFFER std_logic_vector(0 TO 6);
+	HEX5 : BUFFER std_logic_vector(0 TO 6);
+	HEX6 : BUFFER std_logic_vector(0 TO 6);
+	HEX7 : BUFFER std_logic_vector(0 TO 6);
+	LEDR : BUFFER std_logic_vector(17 DOWNTO 0);
 	KEY : IN std_logic_vector(3 DOWNTO 0)
 	);
 END Exp3e;
@@ -337,6 +337,8 @@ SIGNAL \D04|Mux1~0_combout\ : std_logic;
 SIGNAL \D04|Mux0~0_combout\ : std_logic;
 SIGNAL \SW[16]~input_o\ : std_logic;
 SIGNAL \SW[17]~input_o\ : std_logic;
+SIGNAL \B01|ALT_INV_Mux6~0_combout\ : std_logic;
+SIGNAL \ALT_INV_KEY[1]~input_o\ : std_logic;
 SIGNAL \D04|ALT_INV_Mux6~0_combout\ : std_logic;
 SIGNAL \D03|ALT_INV_Mux6~0_combout\ : std_logic;
 SIGNAL \D02|ALT_INV_Mux6~0_combout\ : std_logic;
@@ -344,8 +346,6 @@ SIGNAL \D01|ALT_INV_Mux6~0_combout\ : std_logic;
 SIGNAL \B04|ALT_INV_Mux6~0_combout\ : std_logic;
 SIGNAL \B03|ALT_INV_Mux6~0_combout\ : std_logic;
 SIGNAL \B02|ALT_INV_Mux6~0_combout\ : std_logic;
-SIGNAL \ALT_INV_KEY[1]~input_o\ : std_logic;
-SIGNAL \B01|ALT_INV_Mux6~0_combout\ : std_logic;
 
 BEGIN
 
@@ -363,6 +363,8 @@ ww_KEY <= KEY;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
+\B01|ALT_INV_Mux6~0_combout\ <= NOT \B01|Mux6~0_combout\;
+\ALT_INV_KEY[1]~input_o\ <= NOT \KEY[1]~input_o\;
 \D04|ALT_INV_Mux6~0_combout\ <= NOT \D04|Mux6~0_combout\;
 \D03|ALT_INV_Mux6~0_combout\ <= NOT \D03|Mux6~0_combout\;
 \D02|ALT_INV_Mux6~0_combout\ <= NOT \D02|Mux6~0_combout\;
@@ -370,8 +372,6 @@ ww_devpor <= devpor;
 \B04|ALT_INV_Mux6~0_combout\ <= NOT \B04|Mux6~0_combout\;
 \B03|ALT_INV_Mux6~0_combout\ <= NOT \B03|Mux6~0_combout\;
 \B02|ALT_INV_Mux6~0_combout\ <= NOT \B02|Mux6~0_combout\;
-\ALT_INV_KEY[1]~input_o\ <= NOT \KEY[1]~input_o\;
-\B01|ALT_INV_Mux6~0_combout\ <= NOT \B01|Mux6~0_combout\;
 
 -- Location: IOOBUF_X46_Y91_N9
 \HEX0[6]~output\ : cycloneiv_io_obuf

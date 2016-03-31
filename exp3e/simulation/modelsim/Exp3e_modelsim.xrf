@@ -1,10 +1,10 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/ES575A/Desktop/exp3e/Decoder.vhd
-source_file = 1, C:/Users/ES575A/Desktop/exp3e/Exp3e.vhd
-source_file = 1, C:/Users/ES575A/Desktop/exp3e/FlipFlopD.vhd
-source_file = 1, C:/Users/ES575A/Desktop/exp3e/latchD.vhd
-source_file = 1, C:/Users/ES575A/Desktop/exp3e/FlipFlopD4bits.vhd
-source_file = 1, C:/Users/ES575A/Desktop/exp3e/db/Exp3e.cbx.xml
+source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp3e/Decoder.vhd
+source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp3e/Exp3e.vhd
+source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp3e/FlipFlopD.vhd
+source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp3e/latchD.vhd
+source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp3e/FlipFlopD4bits.vhd
+source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp3e/db/Exp3e.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd

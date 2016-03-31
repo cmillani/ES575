@@ -7,15 +7,15 @@ ENTITY FlipFlopD IS
 END FlipFlopD;
 
 ARCHITECTURE ffD_comp OF FlipFlopD IS
-BEGIN
-  PROCESS (clk, rst)
-  VARIABLE Qvar : STD_LOGIC;
-  BEGIN
-    IF rst = '1' THEN
-      Qvar := '0';
-    ELSIF ( clk'event and clk = '1' ) THEN
-      Qvar := D;
-    END IF ;
-      Q <= Qvar;
-  END PROCESS ;
+	BEGIN
+		PROCESS (clk, rst)
+		VARIABLE Qvar : STD_LOGIC;
+		BEGIN
+			IF rst = '1' THEN
+				Qvar := '0';
+			ELSIF ( clk'event and clk = '1' ) THEN
+				Qvar := D;
+			END IF ;
+			Q <= Qvar;
+	END PROCESS ;
 END ffD_comp ;
