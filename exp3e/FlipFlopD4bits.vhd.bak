@@ -1,0 +1,27 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY FlipFlopD4bits IS
+	PORT ( I : IN STD_LOGIC_VECTOR (3 downto 0);
+		Clock : IN STD_LOGIC;
+		O : OUT STD_LOGIC_VECTOR (3 downto 0));
+END FlipFlopD4bits;
+
+ARCHITECTURE Experiment OF FlipFlopD4bits IS
+
+	COMPONENT FlipFlopD IS
+		PORT ( I : IN STD_LOGIC;
+			Clock : IN STD_LOGIC;
+			O : OUT STD_LOGIC);
+	END COMPONENT FlipFlopD;
+	
+	SIGNAL ClkN : STD_LOGIC;
+	
+	BEGIN
+		ClkN <= NOT Clock;
+		B1 : FlipFlopD port map (I(0), ClkN, O(0));
+		B2 : FlipFlopD port map (I(1), ClkN, O(1));
+		B3 : FlipFlopD port map (I(2), ClkN, O(2));
+		B4 : FlipFlopD port map (I(3), ClkN, O(3));
+		
+END Experiment;

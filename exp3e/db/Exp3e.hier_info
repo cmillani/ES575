@@ -1,0 +1,629 @@
+|Exp3e
+SW[0] => Decoder:B01.s[0]
+SW[0] => FlipFlopD4bits:C01.D[0]
+SW[0] => LEDR[0].DATAIN
+SW[1] => Decoder:B01.s[1]
+SW[1] => FlipFlopD4bits:C01.D[1]
+SW[1] => LEDR[1].DATAIN
+SW[2] => Decoder:B01.s[2]
+SW[2] => FlipFlopD4bits:C01.D[2]
+SW[2] => LEDR[2].DATAIN
+SW[3] => Decoder:B01.s[3]
+SW[3] => FlipFlopD4bits:C01.D[3]
+SW[3] => LEDR[3].DATAIN
+SW[4] => Decoder:B02.s[0]
+SW[4] => FlipFlopD4bits:C02.D[0]
+SW[4] => LEDR[4].DATAIN
+SW[5] => Decoder:B02.s[1]
+SW[5] => FlipFlopD4bits:C02.D[1]
+SW[5] => LEDR[5].DATAIN
+SW[6] => Decoder:B02.s[2]
+SW[6] => FlipFlopD4bits:C02.D[2]
+SW[6] => LEDR[6].DATAIN
+SW[7] => Decoder:B02.s[3]
+SW[7] => FlipFlopD4bits:C02.D[3]
+SW[7] => LEDR[7].DATAIN
+SW[8] => Decoder:B03.s[0]
+SW[8] => FlipFlopD4bits:C03.D[0]
+SW[8] => LEDR[8].DATAIN
+SW[9] => Decoder:B03.s[1]
+SW[9] => FlipFlopD4bits:C03.D[1]
+SW[9] => LEDR[9].DATAIN
+SW[10] => Decoder:B03.s[2]
+SW[10] => FlipFlopD4bits:C03.D[2]
+SW[10] => LEDR[10].DATAIN
+SW[11] => Decoder:B03.s[3]
+SW[11] => FlipFlopD4bits:C03.D[3]
+SW[11] => LEDR[11].DATAIN
+SW[12] => Decoder:B04.s[0]
+SW[12] => FlipFlopD4bits:C04.D[0]
+SW[12] => LEDR[12].DATAIN
+SW[13] => Decoder:B04.s[1]
+SW[13] => FlipFlopD4bits:C04.D[1]
+SW[13] => LEDR[13].DATAIN
+SW[14] => Decoder:B04.s[2]
+SW[14] => FlipFlopD4bits:C04.D[2]
+SW[14] => LEDR[14].DATAIN
+SW[15] => Decoder:B04.s[3]
+SW[15] => FlipFlopD4bits:C04.D[3]
+SW[15] => LEDR[15].DATAIN
+SW[16] => LEDR[16].DATAIN
+SW[17] => LEDR[17].DATAIN
+HEX0[6] <= Decoder:B01.b[6]
+HEX0[5] <= Decoder:B01.b[5]
+HEX0[4] <= Decoder:B01.b[4]
+HEX0[3] <= Decoder:B01.b[3]
+HEX0[2] <= Decoder:B01.b[2]
+HEX0[1] <= Decoder:B01.b[1]
+HEX0[0] <= Decoder:B01.b[0]
+HEX1[6] <= Decoder:B02.b[6]
+HEX1[5] <= Decoder:B02.b[5]
+HEX1[4] <= Decoder:B02.b[4]
+HEX1[3] <= Decoder:B02.b[3]
+HEX1[2] <= Decoder:B02.b[2]
+HEX1[1] <= Decoder:B02.b[1]
+HEX1[0] <= Decoder:B02.b[0]
+HEX2[6] <= Decoder:B03.b[6]
+HEX2[5] <= Decoder:B03.b[5]
+HEX2[4] <= Decoder:B03.b[4]
+HEX2[3] <= Decoder:B03.b[3]
+HEX2[2] <= Decoder:B03.b[2]
+HEX2[1] <= Decoder:B03.b[1]
+HEX2[0] <= Decoder:B03.b[0]
+HEX3[6] <= Decoder:B04.b[6]
+HEX3[5] <= Decoder:B04.b[5]
+HEX3[4] <= Decoder:B04.b[4]
+HEX3[3] <= Decoder:B04.b[3]
+HEX3[2] <= Decoder:B04.b[2]
+HEX3[1] <= Decoder:B04.b[1]
+HEX3[0] <= Decoder:B04.b[0]
+HEX4[6] <= Decoder:D01.b[6]
+HEX4[5] <= Decoder:D01.b[5]
+HEX4[4] <= Decoder:D01.b[4]
+HEX4[3] <= Decoder:D01.b[3]
+HEX4[2] <= Decoder:D01.b[2]
+HEX4[1] <= Decoder:D01.b[1]
+HEX4[0] <= Decoder:D01.b[0]
+HEX5[6] <= Decoder:D02.b[6]
+HEX5[5] <= Decoder:D02.b[5]
+HEX5[4] <= Decoder:D02.b[4]
+HEX5[3] <= Decoder:D02.b[3]
+HEX5[2] <= Decoder:D02.b[2]
+HEX5[1] <= Decoder:D02.b[1]
+HEX5[0] <= Decoder:D02.b[0]
+HEX6[6] <= Decoder:D03.b[6]
+HEX6[5] <= Decoder:D03.b[5]
+HEX6[4] <= Decoder:D03.b[4]
+HEX6[3] <= Decoder:D03.b[3]
+HEX6[2] <= Decoder:D03.b[2]
+HEX6[1] <= Decoder:D03.b[1]
+HEX6[0] <= Decoder:D03.b[0]
+HEX7[6] <= Decoder:D04.b[6]
+HEX7[5] <= Decoder:D04.b[5]
+HEX7[4] <= Decoder:D04.b[4]
+HEX7[3] <= Decoder:D04.b[3]
+HEX7[2] <= Decoder:D04.b[2]
+HEX7[1] <= Decoder:D04.b[1]
+HEX7[0] <= Decoder:D04.b[0]
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= SW[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= SW[8].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] <= SW[9].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[10] <= SW[10].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[11] <= SW[11].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[12] <= SW[12].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[13] <= SW[13].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[14] <= SW[14].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[15] <= SW[15].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[16] <= SW[16].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[17] <= SW[17].DB_MAX_OUTPUT_PORT_TYPE
+KEY[0] => FlipFlopD4bits:C01.Rst
+KEY[0] => FlipFlopD4bits:C02.Rst
+KEY[0] => FlipFlopD4bits:C03.Rst
+KEY[0] => FlipFlopD4bits:C04.Rst
+KEY[1] => FlipFlopD4bits:C01.Clock
+KEY[1] => FlipFlopD4bits:C02.Clock
+KEY[1] => FlipFlopD4bits:C03.Clock
+KEY[1] => FlipFlopD4bits:C04.Clock
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+
+
+|Exp3e|Decoder:B01
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|Decoder:B02
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|Decoder:B03
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|Decoder:B04
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C01
+D[0] => FlipFlopD:B1.D
+D[1] => FlipFlopD:B2.D
+D[2] => FlipFlopD:B3.D
+D[3] => FlipFlopD:B4.D
+Clock => FlipFlopD:B1.clk
+Clock => FlipFlopD:B2.clk
+Clock => FlipFlopD:B3.clk
+Clock => FlipFlopD:B4.clk
+Rst => FlipFlopD:B1.rst
+Rst => FlipFlopD:B2.rst
+Rst => FlipFlopD:B3.rst
+Rst => FlipFlopD:B4.rst
+Q[0] <= FlipFlopD:B1.Q
+Q[1] <= FlipFlopD:B2.Q
+Q[2] <= FlipFlopD:B3.Q
+Q[3] <= FlipFlopD:B4.Q
+
+
+|Exp3e|FlipFlopD4bits:C01|FlipFlopD:B1
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C01|FlipFlopD:B2
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C01|FlipFlopD:B3
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C01|FlipFlopD:B4
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C02
+D[0] => FlipFlopD:B1.D
+D[1] => FlipFlopD:B2.D
+D[2] => FlipFlopD:B3.D
+D[3] => FlipFlopD:B4.D
+Clock => FlipFlopD:B1.clk
+Clock => FlipFlopD:B2.clk
+Clock => FlipFlopD:B3.clk
+Clock => FlipFlopD:B4.clk
+Rst => FlipFlopD:B1.rst
+Rst => FlipFlopD:B2.rst
+Rst => FlipFlopD:B3.rst
+Rst => FlipFlopD:B4.rst
+Q[0] <= FlipFlopD:B1.Q
+Q[1] <= FlipFlopD:B2.Q
+Q[2] <= FlipFlopD:B3.Q
+Q[3] <= FlipFlopD:B4.Q
+
+
+|Exp3e|FlipFlopD4bits:C02|FlipFlopD:B1
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C02|FlipFlopD:B2
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C02|FlipFlopD:B3
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C02|FlipFlopD:B4
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C03
+D[0] => FlipFlopD:B1.D
+D[1] => FlipFlopD:B2.D
+D[2] => FlipFlopD:B3.D
+D[3] => FlipFlopD:B4.D
+Clock => FlipFlopD:B1.clk
+Clock => FlipFlopD:B2.clk
+Clock => FlipFlopD:B3.clk
+Clock => FlipFlopD:B4.clk
+Rst => FlipFlopD:B1.rst
+Rst => FlipFlopD:B2.rst
+Rst => FlipFlopD:B3.rst
+Rst => FlipFlopD:B4.rst
+Q[0] <= FlipFlopD:B1.Q
+Q[1] <= FlipFlopD:B2.Q
+Q[2] <= FlipFlopD:B3.Q
+Q[3] <= FlipFlopD:B4.Q
+
+
+|Exp3e|FlipFlopD4bits:C03|FlipFlopD:B1
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C03|FlipFlopD:B2
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C03|FlipFlopD:B3
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C03|FlipFlopD:B4
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C04
+D[0] => FlipFlopD:B1.D
+D[1] => FlipFlopD:B2.D
+D[2] => FlipFlopD:B3.D
+D[3] => FlipFlopD:B4.D
+Clock => FlipFlopD:B1.clk
+Clock => FlipFlopD:B2.clk
+Clock => FlipFlopD:B3.clk
+Clock => FlipFlopD:B4.clk
+Rst => FlipFlopD:B1.rst
+Rst => FlipFlopD:B2.rst
+Rst => FlipFlopD:B3.rst
+Rst => FlipFlopD:B4.rst
+Q[0] <= FlipFlopD:B1.Q
+Q[1] <= FlipFlopD:B2.Q
+Q[2] <= FlipFlopD:B3.Q
+Q[3] <= FlipFlopD:B4.Q
+
+
+|Exp3e|FlipFlopD4bits:C04|FlipFlopD:B1
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C04|FlipFlopD:B2
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C04|FlipFlopD:B3
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|FlipFlopD4bits:C04|FlipFlopD:B4
+D => Qvar.DATAIN
+clk => Qvar.CLK
+rst => Qvar.ACLR
+Q <= Qvar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|Decoder:D01
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|Decoder:D02
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|Decoder:D03
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3e|Decoder:D04
+s[0] => Mux0.IN19
+s[0] => Mux1.IN19
+s[0] => Mux2.IN19
+s[0] => Mux3.IN19
+s[0] => Mux4.IN19
+s[0] => Mux5.IN19
+s[0] => Mux6.IN19
+s[1] => Mux0.IN18
+s[1] => Mux1.IN18
+s[1] => Mux2.IN18
+s[1] => Mux3.IN18
+s[1] => Mux4.IN18
+s[1] => Mux5.IN18
+s[1] => Mux6.IN18
+s[2] => Mux0.IN17
+s[2] => Mux1.IN17
+s[2] => Mux2.IN17
+s[2] => Mux3.IN17
+s[2] => Mux4.IN17
+s[2] => Mux5.IN17
+s[2] => Mux6.IN17
+s[3] => Mux0.IN16
+s[3] => Mux1.IN16
+s[3] => Mux2.IN16
+s[3] => Mux3.IN16
+s[3] => Mux4.IN16
+s[3] => Mux5.IN16
+s[3] => Mux6.IN16
+b[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+b[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+b[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

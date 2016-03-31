@@ -1,0 +1,91 @@
+|Exp3d
+SW[0] => LatchD:EU.D
+SW[0] => FlipFlopD:VOCE.I
+SW[0] => FlipFlopD:ZOBOOMAFOO.I
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+SW[10] => ~NO_FANOUT~
+SW[11] => ~NO_FANOUT~
+SW[12] => ~NO_FANOUT~
+SW[13] => ~NO_FANOUT~
+SW[14] => ~NO_FANOUT~
+SW[15] => ~NO_FANOUT~
+SW[16] => ~NO_FANOUT~
+SW[17] => ~NO_FANOUT~
+KEY[0] => ~NO_FANOUT~
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => FlipFlopD:ZOBOOMAFOO.Clock
+KEY[3] => LatchD:EU.Clk
+KEY[3] => FlipFlopD:VOCE.Clock
+LEDR[0] << LatchD:EU.Q
+LEDR[1] << FlipFlopD:VOCE.O
+LEDR[2] << FlipFlopD:ZOBOOMAFOO.O
+LEDR[3] << <GND>
+LEDR[4] << <GND>
+LEDR[5] << <GND>
+LEDR[6] << <GND>
+LEDR[7] << <GND>
+LEDR[8] << <GND>
+LEDR[9] << <GND>
+LEDR[10] << <GND>
+LEDR[11] << <GND>
+LEDR[12] << <GND>
+LEDR[13] << <GND>
+LEDR[14] << <GND>
+LEDR[15] << <GND>
+LEDR[16] << <GND>
+LEDR[17] << <GND>
+
+
+|Exp3d|latchD:EU
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3d|FlipFlopD:VOCE
+I => LatchD:HeMan.D
+Clock => LatchD:HeMan.Clk
+Clock => LatchD:SheRa.Clk
+O <= LatchD:SheRa.Q
+
+
+|Exp3d|FlipFlopD:VOCE|latchD:HeMan
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3d|FlipFlopD:VOCE|latchD:SheRa
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3d|FlipFlopD:ZOBOOMAFOO
+I => LatchD:HeMan.D
+Clock => LatchD:HeMan.Clk
+Clock => LatchD:SheRa.Clk
+O <= LatchD:SheRa.Q
+
+
+|Exp3d|FlipFlopD:ZOBOOMAFOO|latchD:HeMan
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp3d|FlipFlopD:ZOBOOMAFOO|latchD:SheRa
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

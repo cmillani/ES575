@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ES575A/Desktop/ES575-master/exp3a/Exp3a.vhd
+source_file = 1, C:/Users/ES575A/Desktop/ES575-master/exp3a/db/Exp3a.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Exp3a
+instance = comp, \Q~output\, Q~output, Exp3a, 1
+instance = comp, \S~input\, S~input, Exp3a, 1
+instance = comp, \Clk~input\, Clk~input, Exp3a, 1
+instance = comp, \R~input\, R~input, Exp3a, 1
