@@ -1,0 +1,24 @@
+library ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY Contador IS
+  PORT ( T : IN STD_LOGIC;
+	  clk, clr : IN STD_LOGIC ;
+	  Q : OUT STD_LOGIC_VECTOR(15 downto 0));
+END Contador;
+
+ARCHITECTURE count OF Contador IS
+	
+	BEGIN
+		PROCESS (clk, clr, T)
+		VARIABLE Qvar : STD_LOGIC_VECTOR(15 downto 0);
+		BEGIN
+			IF clr = '1' THEN
+				Qvar := "0000000000000000";
+			ELSIF (clk'event and clk = '1') THEN
+				Qvar := Qvar + '1';
+			END IF;
+			Q <= Qvar;
+	END PROCESS;
+END count;

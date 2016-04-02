@@ -1,0 +1,27 @@
+library ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY Clock1Hz IS
+  PORT (enb, clk, clr : IN STD_LOGIC ;
+	  Q : OUT STD_LOGIC);
+END Clock1Hz;
+
+ARCHITECTURE count OF Clock1Hz IS
+	BEGIN
+		PROCESS (enb, clk, clr)
+		VARIABLE Qvar : STD_LOGIC_VECTOR(23 downto 0);
+		VARIABLE state : STD_LOGIC;
+		BEGIN
+			IF clr = '1' THEN
+				Qvar := "000000000000000000000000";
+			ELSIF (clk'event and clk = '1' and enb = '1') THEN
+				Qvar := Qvar + '1';
+			END IF;
+			IF Qvar = "001001100010010110100000" THEN
+				state := NOT state;
+				Qvar := "000000000000000000000000";
+			END IF;
+			Q <= state;
+	END PROCESS;
+END count;

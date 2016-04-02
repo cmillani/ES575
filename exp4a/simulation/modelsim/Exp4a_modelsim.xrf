@@ -1,9 +1,9 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp4a/FlipFlopT.vhd
-source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp4a/Contador8b.vhd
-source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp4a/Decoder.vhd
-source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp4a/Exp4a.vhd
-source_file = 1, C:/Users/ES575A/Desktop/Labsz/ES575/exp4a/db/Exp4a.cbx.xml
+source_file = 1, C:/Users/ES575A/Desktop/ES575-master/exp4a/FlipFlopT.vhd
+source_file = 1, C:/Users/ES575A/Desktop/ES575-master/exp4a/Contador8b.vhd
+source_file = 1, C:/Users/ES575A/Desktop/ES575-master/exp4a/Decoder.vhd
+source_file = 1, C:/Users/ES575A/Desktop/ES575-master/exp4a/Exp4a.vhd
+source_file = 1, C:/Users/ES575A/Desktop/ES575-master/exp4a/db/Exp4a.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
