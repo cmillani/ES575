@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Exp4d
-Fri Apr 01 21:03:47 2016
+Fri Apr 08 17:38:40 2016
 Quartus II 64-Bit Version 13.1.4 Build 182 03/12/2014 SJ Web Edition
 
 
@@ -42,13 +42,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Apr 01 21:03:47 2016      ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 08 17:38:40 2016      ;
 ; Quartus II 64-Bit Version          ; 13.1.4 Build 182 03/12/2014 SJ Web Edition ;
 ; Revision Name                      ; Exp4d                                      ;
 ; Top-level Entity Name              ; Exp4d                                      ;
 ; Family                             ; Cyclone IV GX                              ;
-; Total logic elements               ; 48                                         ;
-;     Total combinational functions  ; 48                                         ;
+; Total logic elements               ; 51                                         ;
+;     Total combinational functions  ; 51                                         ;
 ;     Dedicated logic registers      ; 29                                         ;
 ; Total registers                    ; 29                                         ;
 ; Total pins                         ; 48                                         ;
@@ -161,42 +161,42 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                   ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                            ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------+---------+
-; Decoder.vhd                      ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/ES575-master/exp4d/Decoder.vhd  ;         ;
-; Exp4d.vhd                        ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/ES575-master/exp4d/Exp4d.vhd    ;         ;
-; Clock1Hz.vhd                     ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/ES575-master/exp4d/Clock1Hz.vhd ;         ;
-; Contador.vhd                     ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/ES575-master/exp4d/Contador.vhd ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                      ;
++----------------------------------+-----------------+-----------------+--------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path               ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------+---------+
+; Decoder.vhd                      ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/exp4d/Decoder.vhd  ;         ;
+; Exp4d.vhd                        ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/exp4d/Exp4d.vhd    ;         ;
+; Clock1Hz.vhd                     ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/exp4d/Clock1Hz.vhd ;         ;
+; Contador.vhd                     ; yes             ; User VHDL File  ; C:/Users/ES575A/Desktop/exp4d/Contador.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------+---------+
 
 
-+---------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary ;
-+--------------------------+------------------+
-; Resource                 ; Usage            ;
-+--------------------------+------------------+
-; I/O pins                 ; 48               ;
-; DSP block 9-bit elements ; 0                ;
-; Maximum fan-out node     ; SW[0]~input      ;
-; Maximum fan-out          ; 29               ;
-; Total fan-out            ; 304              ;
-; Average fan-out          ; 1.76             ;
-+--------------------------+------------------+
++-------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary     ;
++--------------------------+----------------------+
+; Resource                 ; Usage                ;
++--------------------------+----------------------+
+; I/O pins                 ; 48                   ;
+; DSP block 9-bit elements ; 0                    ;
+; Maximum fan-out node     ; Clock1Hz:B00|state~2 ;
+; Maximum fan-out          ; 26                   ;
+; Total fan-out            ; 314                  ;
+; Average fan-out          ; 1.78                 ;
++--------------------------+----------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                     ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; |Exp4d                     ; 48 (0)            ; 29 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 48   ; 0            ; |Exp4d              ; work         ;
-;    |Clock1Hz:B00|          ; 36 (36)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Exp4d|Clock1Hz:B00 ; work         ;
-;    |Contador:B01|          ; 5 (5)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Exp4d|Contador:B01 ; work         ;
-;    |Decoder:B02|           ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Exp4d|Decoder:B02  ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                        ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name    ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+------------------------+--------------+
+; |Exp4d                     ; 51 (0)            ; 29 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 48   ; 0            ; |Exp4d                 ; work         ;
+;    |Clock1Hz:B00|          ; 37 (37)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Exp4d|Clock1Hz:B00    ; work         ;
+;    |Contador0a9:B01|       ; 7 (7)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Exp4d|Contador0a9:B01 ; work         ;
+;    |Decoder:B02|           ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Exp4d|Decoder:B02     ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -221,7 +221,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 29    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 26    ;
+; Number of registers using Clock Enable       ; 24    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -241,7 +241,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.4 Build 182 03/12/2014 SJ Web Edition
-    Info: Processing started: Fri Apr 01 21:03:45 2016
+    Info: Processing started: Fri Apr 08 17:38:38 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Exp4d -c Exp4d
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file decoder.vhd
@@ -254,14 +254,14 @@ Info (12021): Found 2 design units, including 1 entities, in source file clock1h
     Info (12022): Found design unit 1: Clock1Hz-count
     Info (12023): Found entity 1: Clock1Hz
 Info (12021): Found 2 design units, including 1 entities, in source file contador.vhd
-    Info (12022): Found design unit 1: Contador-count
-    Info (12023): Found entity 1: Contador
+    Info (12022): Found design unit 1: Contador0a9-count
+    Info (12023): Found entity 1: Contador0a9
 Info (12127): Elaborating entity "Exp4d" for the top level hierarchy
 Warning (10873): Using initial value X (don't care) for net "LEDR[17..4]" at Exp4d.vhd(14)
 Info (12128): Elaborating entity "Clock1Hz" for hierarchy "Clock1Hz:B00"
 Warning (10631): VHDL Process Statement warning at Clock1Hz.vhd(12): inferring latch(es) for signal or variable "state", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "state" at Clock1Hz.vhd(22)
-Info (12128): Elaborating entity "Contador" for hierarchy "Contador:B01"
+Info (10041): Inferred latch for "state" at Clock1Hz.vhd(23)
+Info (12128): Elaborating entity "Contador0a9" for hierarchy "Contador0a9:B01"
 Info (12128): Elaborating entity "Decoder" for hierarchy "Decoder:B02"
 Warning (13012): Latch Clock1Hz:B00|state has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal Clock1Hz:B00|Ivar[0]
@@ -631,8 +631,7 @@ Warning (20013): Ignored assignments for entity "de2i150" -- entity does not exi
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS -entity de2i150 was ignored
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 20 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SW[1]"
+Warning (21074): Design contains 19 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[2]"
     Warning (15610): No output dependent on input pin "SW[3]"
     Warning (15610): No output dependent on input pin "SW[4]"
@@ -652,13 +651,13 @@ Warning (21074): Design contains 20 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "KEY[0]"
     Warning (15610): No output dependent on input pin "KEY[2]"
     Warning (15610): No output dependent on input pin "KEY[3]"
-Info (21057): Implemented 96 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 99 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 23 input pins
     Info (21059): Implemented 25 output pins
-    Info (21061): Implemented 48 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 389 warnings
-    Info: Peak virtual memory: 582 megabytes
-    Info: Processing ended: Fri Apr 01 21:03:47 2016
+    Info (21061): Implemented 51 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 388 warnings
+    Info: Peak virtual memory: 579 megabytes
+    Info: Processing ended: Fri Apr 08 17:38:40 2016
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

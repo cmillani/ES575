@@ -1,7 +1,6 @@
 |Exp4d
-SW[0] => Clock1Hz:B00.enb
-SW[0] => Contador:B01.enb
-SW[1] => ~NO_FANOUT~
+SW[0] => Contador0a9:B01.enb
+SW[1] => Clock1Hz:B00.enb
 SW[2] => ~NO_FANOUT~
 SW[3] => ~NO_FANOUT~
 SW[4] => ~NO_FANOUT~
@@ -25,10 +24,10 @@ HEX0[3] <= Decoder:B02.b[3]
 HEX0[2] <= Decoder:B02.b[2]
 HEX0[1] <= Decoder:B02.b[1]
 HEX0[0] <= Decoder:B02.b[0]
-LEDR[0] <= Contador:B01.Q[0]
-LEDR[1] <= Contador:B01.Q[1]
-LEDR[2] <= Contador:B01.Q[2]
-LEDR[3] <= Contador:B01.Q[3]
+LEDR[0] <= Contador0a9:B01.Q[0]
+LEDR[1] <= Contador0a9:B01.Q[1]
+LEDR[2] <= Contador0a9:B01.Q[2]
+LEDR[3] <= Contador0a9:B01.Q[3]
 LEDR[4] <= <GND>
 LEDR[5] <= <GND>
 LEDR[6] <= <GND>
@@ -45,7 +44,7 @@ LEDR[16] <= <GND>
 LEDR[17] <= <GND>
 KEY[0] => ~NO_FANOUT~
 KEY[1] => Clock1Hz:B00.clr
-KEY[1] => Contador:B01.clr
+KEY[1] => Contador0a9:B01.clr
 KEY[2] => ~NO_FANOUT~
 KEY[3] => ~NO_FANOUT~
 CLOCK_50 => Clock1Hz:B00.clk50
@@ -107,7 +106,7 @@ clr => state.IN1
 Q <= state.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Exp4d|Contador:B01
+|Exp4d|Contador0a9:B01
 enb => Qvar[0].ENA
 enb => Qvar[1].ENA
 enb => Qvar[2].ENA
@@ -116,10 +115,7 @@ clk => Qvar[0].CLK
 clk => Qvar[1].CLK
 clk => Qvar[2].CLK
 clk => Qvar[3].CLK
-clr => Qvar[0].ACLR
-clr => Qvar[1].ACLR
-clr => Qvar[2].ACLR
-clr => Qvar[3].ACLR
+clr => process_0.IN1
 Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
 Q[1] <= Qvar[1].DB_MAX_OUTPUT_PORT_TYPE
 Q[2] <= Qvar[2].DB_MAX_OUTPUT_PORT_TYPE

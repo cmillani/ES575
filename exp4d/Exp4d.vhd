@@ -23,10 +23,10 @@ ARCHITECTURE experimento OF Exp4d IS
 		Q : OUT STD_LOGIC);
 	END COMPONENT Clock1Hz;
 	
-	COMPONENT Contador IS
+	COMPONENT Contador0a9 IS
 	  PORT (enb, clk, clr : IN STD_LOGIC ;
 		  Q : OUT STD_LOGIC_VECTOR(3 downto 0));
-	END COMPONENT Contador;
+	END COMPONENT Contador0a9;
 	
 	COMPONENT Decoder IS
 		PORT (s: in std_logic_vector(3 downto 0);
@@ -43,8 +43,8 @@ ARCHITECTURE experimento OF Exp4d IS
 	BEGIN
 	Nclear <= NOT KEY(1);
 	
-	B00 : Clock1Hz port map(SW(0), CLOCK_50, Nclear, Q);
-	B01 : Contador port map(SW(0), Q, Nclear, P);
+	B00 : Clock1Hz port map(SW(1), CLOCK_50, Nclear, Q);
+	B01 : Contador0a9 port map(SW(0), Q, Nclear, P);
 	B02 : Decoder port map(P(3 downto 0), HEX0(0 to 6));
 	
 	

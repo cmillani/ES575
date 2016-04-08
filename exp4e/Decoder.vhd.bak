@@ -1,0 +1,98 @@
+library ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY Decoder IS
+  PORT (Q : IN STD_LOGIC ;
+	  inhex0, inhex1, inhex2, inhex3, inhex4, inhex5, inhex6, inhex7 : IN STD_LOGIC_VECTOR(3 downto 0)
+	  outhex0, outhex1, outhex2, outhex3, outhex4, outhex5, outhex6, outhex7 : OUT STD_LOGIC_VECTOR(3 downto 0));
+END Decoder;
+
+ARCHITECTURE count OF Decoder IS
+	BEGIN
+		PROCESS (Q)
+		VARIABLE Qvar : STD_LOGIC_VECTOR(3 downto 0);
+		BEGIN
+			IF Qvar = "1001" THEN
+				Qvar := "0000";
+			END IF;
+			
+			IF (Q'event and Q = '1') THEN
+				Qvar := Qvar + '1';
+			END IF;
+			
+			CASE Qvar IS
+				WHEN "0000" => outhex0 <= inhex0;
+									outhex1 <= inhex1;
+									outhex2 <= inhex2;
+									outhex3 <= inhex3;
+									outhex4 <= inhex4;
+									outhex5 <= inhex5;
+									outhex6 <= inhex6;
+									outhex7 <= inhex7;
+									
+				WHEN "0001" => outhex1 <= inhex0;
+									outhex2 <= inhex1;
+									outhex3 <= inhex2;
+									outhex4 <= inhex3;
+									outhex5 <= inhex4;
+									outhex6 <= inhex5;
+									outhex7 <= inhex6;
+									outhex0 <= inhex7;
+									
+				WHEN "0010" => outhex2 <= inhex0;
+									outhex3 <= inhex1;
+									outhex4 <= inhex2;
+									outhex5 <= inhex3;
+									outhex6 <= inhex4;
+									outhex7 <= inhex5;
+									outhex0 <= inhex6;
+									outhex1 <= inhex7;
+								
+				WHEN "0011" => outhex3 <= inhex0;
+									outhex4 <= inhex1;
+									outhex5 <= inhex2;
+									outhex6 <= inhex3;
+									outhex7 <= inhex4;
+									outhex0 <= inhex5;
+									outhex1 <= inhex6;
+									outhex2 <= inhex7;
+				
+				WHEN "0100" => outhex4 <= inhex0;
+									outhex5 <= inhex1;
+									outhex6 <= inhex2;
+									outhex7 <= inhex3;
+									outhex0 <= inhex4;
+									outhex1 <= inhex5;
+									outhex2 <= inhex6;
+									outhex3 <= inhex7;
+				
+				WHEN "0101" => outhex5 <= inhex0;
+									outhex6 <= inhex1;
+									outhex7 <= inhex2;
+									outhex0 <= inhex3;
+									outhex1 <= inhex4;
+									outhex2 <= inhex5;
+									outhex3 <= inhex6;
+									outhex4 <= inhex7;
+				
+				WHEN "0110" => outhex6 <= inhex0;
+									outhex7 <= inhex1;
+									outhex0 <= inhex2;
+									outhex1 <= inhex3;
+									outhex2 <= inhex4;
+									outhex3 <= inhex5;
+									outhex4 <= inhex6;
+									outhex5 <= inhex7;
+									
+				WHEN "0111" => outhex7 <= inhex0;
+									outhex0 <= inhex1;
+									outhex1 <= inhex2;
+									outhex2 <= inhex3;
+									outhex3 <= inhex4;
+									outhex4 <= inhex5;
+									outhex5 <= inhex6;
+									outhex6 <= inhex7;
+			END CASE;
+		END PROCESS;
+END count;
