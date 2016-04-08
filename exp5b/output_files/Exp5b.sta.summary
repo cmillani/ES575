@@ -1,0 +1,425 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'SW[11]'
+Slack : -39.268
+TNS   : -342.827
+
+Type  : Slow 1200mV 85C Model Setup 'KEY[0]'
+Slack : -37.590
+TNS   : -340.523
+
+Type  : Slow 1200mV 85C Model Setup 'KEY[1]'
+Slack : -37.419
+TNS   : -340.427
+
+Type  : Slow 1200mV 85C Model Setup 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -15.177
+TNS   : -59.654
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -2.309
+TNS   : -34.877
+
+Type  : Slow 1200mV 85C Model Setup 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.700
+TNS   : -2.074
+
+Type  : Slow 1200mV 85C Model Setup 'Clock1Hz:Clock1|state'
+Slack : -0.680
+TNS   : -1.985
+
+Type  : Slow 1200mV 85C Model Hold 'SW[11]'
+Slack : -23.193
+TNS   : -130.541
+
+Type  : Slow 1200mV 85C Model Hold 'KEY[0]'
+Slack : -22.002
+TNS   : -114.710
+
+Type  : Slow 1200mV 85C Model Hold 'KEY[1]'
+Slack : -12.147
+TNS   : -72.412
+
+Type  : Slow 1200mV 85C Model Hold 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.421
+TNS   : -1.071
+
+Type  : Slow 1200mV 85C Model Hold 'Clock1Hz:Clock1|state'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : 1.166
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'KEY[0]'
+Slack : -39.714
+TNS   : -636.633
+
+Type  : Slow 1200mV 85C Model Recovery 'SW[11]'
+Slack : -39.607
+TNS   : -631.784
+
+Type  : Slow 1200mV 85C Model Recovery 'KEY[1]'
+Slack : -37.426
+TNS   : -623.258
+
+Type  : Slow 1200mV 85C Model Recovery 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -13.054
+TNS   : -52.216
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : -3.615
+TNS   : -86.379
+
+Type  : Slow 1200mV 85C Model Recovery 'Clock1Hz:Clock1|state'
+Slack : -3.029
+TNS   : -12.116
+
+Type  : Slow 1200mV 85C Model Recovery 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -1.531
+TNS   : -6.121
+
+Type  : Slow 1200mV 85C Model Removal 'SW[11]'
+Slack : -19.673
+TNS   : -236.426
+
+Type  : Slow 1200mV 85C Model Removal 'KEY[0]'
+Slack : -18.433
+TNS   : -206.160
+
+Type  : Slow 1200mV 85C Model Removal 'KEY[1]'
+Slack : -8.283
+TNS   : -129.192
+
+Type  : Slow 1200mV 85C Model Removal 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.314
+TNS   : -1.256
+
+Type  : Slow 1200mV 85C Model Removal 'Clock1Hz:Clock1|state'
+Slack : -0.237
+TNS   : -0.948
+
+Type  : Slow 1200mV 85C Model Removal 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : 1.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : 2.191
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SW[11]'
+Slack : -18.089
+TNS   : -884.840
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -14.979
+TNS   : -341.187
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -5.103
+TNS   : -278.936
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -40.500
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock1Hz:Clock1|state'
+Slack : -1.500
+TNS   : -6.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -1.500
+TNS   : -6.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -1.500
+TNS   : -6.000
+
+Type  : Slow 1200mV 0C Model Setup 'SW[11]'
+Slack : -35.831
+TNS   : -313.542
+
+Type  : Slow 1200mV 0C Model Setup 'KEY[1]'
+Slack : -34.384
+TNS   : -310.674
+
+Type  : Slow 1200mV 0C Model Setup 'KEY[0]'
+Slack : -34.284
+TNS   : -311.106
+
+Type  : Slow 1200mV 0C Model Setup 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -13.715
+TNS   : -53.966
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.959
+TNS   : -28.646
+
+Type  : Slow 1200mV 0C Model Setup 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.547
+TNS   : -1.624
+
+Type  : Slow 1200mV 0C Model Setup 'Clock1Hz:Clock1|state'
+Slack : -0.531
+TNS   : -1.452
+
+Type  : Slow 1200mV 0C Model Hold 'SW[11]'
+Slack : -21.301
+TNS   : -120.123
+
+Type  : Slow 1200mV 0C Model Hold 'KEY[0]'
+Slack : -20.261
+TNS   : -106.123
+
+Type  : Slow 1200mV 0C Model Hold 'KEY[1]'
+Slack : -11.187
+TNS   : -66.141
+
+Type  : Slow 1200mV 0C Model Hold 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.401
+TNS   : -1.055
+
+Type  : Slow 1200mV 0C Model Hold 'Clock1Hz:Clock1|state'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : 1.039
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'KEY[0]'
+Slack : -36.233
+TNS   : -581.640
+
+Type  : Slow 1200mV 0C Model Recovery 'SW[11]'
+Slack : -36.053
+TNS   : -577.989
+
+Type  : Slow 1200mV 0C Model Recovery 'KEY[1]'
+Slack : -34.339
+TNS   : -569.514
+
+Type  : Slow 1200mV 0C Model Recovery 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -11.769
+TNS   : -47.076
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -3.086
+TNS   : -73.843
+
+Type  : Slow 1200mV 0C Model Recovery 'Clock1Hz:Clock1|state'
+Slack : -2.492
+TNS   : -9.968
+
+Type  : Slow 1200mV 0C Model Recovery 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -1.285
+TNS   : -5.137
+
+Type  : Slow 1200mV 0C Model Removal 'SW[11]'
+Slack : -18.112
+TNS   : -216.805
+
+Type  : Slow 1200mV 0C Model Removal 'KEY[0]'
+Slack : -17.012
+TNS   : -190.105
+
+Type  : Slow 1200mV 0C Model Removal 'KEY[1]'
+Slack : -7.398
+TNS   : -118.777
+
+Type  : Slow 1200mV 0C Model Removal 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.297
+TNS   : -1.188
+
+Type  : Slow 1200mV 0C Model Removal 'Clock1Hz:Clock1|state'
+Slack : -0.270
+TNS   : -1.080
+
+Type  : Slow 1200mV 0C Model Removal 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : 1.203
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 1.990
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SW[11]'
+Slack : -16.350
+TNS   : -802.230
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -13.520
+TNS   : -313.295
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -4.548
+TNS   : -253.893
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -40.500
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock1Hz:Clock1|state'
+Slack : -1.500
+TNS   : -6.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -1.500
+TNS   : -6.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -1.500
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Setup 'SW[11]'
+Slack : -20.584
+TNS   : -178.208
+
+Type  : Fast 1200mV 0C Model Setup 'KEY[0]'
+Slack : -19.751
+TNS   : -176.668
+
+Type  : Fast 1200mV 0C Model Setup 'KEY[1]'
+Slack : -18.981
+TNS   : -176.258
+
+Type  : Fast 1200mV 0C Model Setup 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -7.777
+TNS   : -30.684
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -0.666
+TNS   : -6.268
+
+Type  : Fast 1200mV 0C Model Setup 'Clock1Hz:Clock1|state'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SW[11]'
+Slack : -12.187
+TNS   : -66.602
+
+Type  : Fast 1200mV 0C Model Hold 'KEY[0]'
+Slack : -11.660
+TNS   : -59.487
+
+Type  : Fast 1200mV 0C Model Hold 'KEY[1]'
+Slack : -6.263
+TNS   : -39.290
+
+Type  : Fast 1200mV 0C Model Hold 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.204
+TNS   : -0.515
+
+Type  : Fast 1200mV 0C Model Hold 'Clock1Hz:Clock1|state'
+Slack : -0.033
+TNS   : -0.055
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : 0.531
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'KEY[0]'
+Slack : -20.786
+TNS   : -328.398
+
+Type  : Fast 1200mV 0C Model Recovery 'SW[11]'
+Slack : -20.717
+TNS   : -327.036
+
+Type  : Fast 1200mV 0C Model Recovery 'KEY[1]'
+Slack : -18.986
+TNS   : -314.497
+
+Type  : Fast 1200mV 0C Model Recovery 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -6.620
+TNS   : -26.480
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -1.940
+TNS   : -47.180
+
+Type  : Fast 1200mV 0C Model Recovery 'Clock1Hz:Clock1|state'
+Slack : -1.699
+TNS   : -6.796
+
+Type  : Fast 1200mV 0C Model Recovery 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.249
+TNS   : -0.994
+
+Type  : Fast 1200mV 0C Model Removal 'SW[11]'
+Slack : -10.264
+TNS   : -121.479
+
+Type  : Fast 1200mV 0C Model Removal 'KEY[0]'
+Slack : -9.695
+TNS   : -107.946
+
+Type  : Fast 1200mV 0C Model Removal 'KEY[1]'
+Slack : -4.625
+TNS   : -68.998
+
+Type  : Fast 1200mV 0C Model Removal 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -0.156
+TNS   : -0.624
+
+Type  : Fast 1200mV 0C Model Removal 'Clock1Hz:Clock1|state'
+Slack : -0.134
+TNS   : -0.536
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 1.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : 1.115
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SW[11]'
+Slack : -9.825
+TNS   : -466.712
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -8.333
+TNS   : -192.303
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -3.000
+TNS   : -132.512
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -28.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock1Hz:Clock1|state'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ContadorNbitsKmax:SegundosDec|VALUE[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ContadorNbitsKmax:SegundosUni|VALUE[0]'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------
