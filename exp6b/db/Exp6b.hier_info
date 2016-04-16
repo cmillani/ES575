@@ -1,0 +1,180 @@
+|Exp6b
+SW[0] => FlipFlopD:A0.D[0]
+SW[1] => FlipFlopD:A0.D[1]
+SW[2] => FlipFlopD:A0.D[2]
+SW[3] => FlipFlopD:A0.D[3]
+SW[4] => FlipFlopD:A0.D[4]
+SW[5] => FlipFlopD:A0.D[5]
+SW[6] => FlipFlopD:A0.D[6]
+SW[7] => FlipFlopD:A0.D[7]
+SW[8] => ~NO_FANOUT~
+SW[9] => SomadorGenerico:A4.NotB
+SW[10] => SomadorGenerico:A4.NotA
+SW[11] => SomadorGenerico:A4.Cin
+SW[12] => ~NO_FANOUT~
+SW[13] => ~NO_FANOUT~
+SW[14] => ~NO_FANOUT~
+SW[15] => ~NO_FANOUT~
+SW[16] => ~NO_FANOUT~
+SW[17] => ~NO_FANOUT~
+LEDR[0] << FlipFlopD:A1.Q[0]
+LEDR[1] << FlipFlopD:A1.Q[1]
+LEDR[2] << FlipFlopD:A1.Q[2]
+LEDR[3] << FlipFlopD:A1.Q[3]
+LEDR[4] << FlipFlopD:A1.Q[4]
+LEDR[5] << FlipFlopD:A1.Q[5]
+LEDR[6] << FlipFlopD:A1.Q[6]
+LEDR[7] << FlipFlopD:A1.Q[7]
+LEDR[8] << <GND>
+LEDR[9] << <GND>
+LEDR[10] << <GND>
+LEDR[11] << <GND>
+LEDR[12] << <GND>
+LEDR[13] << <GND>
+LEDR[14] << <GND>
+LEDR[15] << FlipFlopD:A3.Q[0]
+LEDR[16] << <GND>
+LEDR[17] << FlipFlopD:A2.Q[0]
+KEY[0] => FlipFlopD:A0.rst
+KEY[0] => FlipFlopD:A1.rst
+KEY[0] => FlipFlopD:A2.rst
+KEY[0] => FlipFlopD:A3.rst
+KEY[1] => FlipFlopD:A0.clk
+KEY[1] => FlipFlopD:A1.clk
+KEY[1] => FlipFlopD:A2.clk
+KEY[1] => FlipFlopD:A3.clk
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+CLOCK_50 => ~NO_FANOUT~
+
+
+|Exp6b|FlipFlopD:A0
+D[0] => Qvar[0].DATAIN
+D[1] => Qvar[1].DATAIN
+D[2] => Qvar[2].DATAIN
+D[3] => Qvar[3].DATAIN
+D[4] => Qvar[4].DATAIN
+D[5] => Qvar[5].DATAIN
+D[6] => Qvar[6].DATAIN
+D[7] => Qvar[7].DATAIN
+clk => Qvar[0].CLK
+clk => Qvar[1].CLK
+clk => Qvar[2].CLK
+clk => Qvar[3].CLK
+clk => Qvar[4].CLK
+clk => Qvar[5].CLK
+clk => Qvar[6].CLK
+clk => Qvar[7].CLK
+rst => Qvar[0].ACLR
+rst => Qvar[1].ACLR
+rst => Qvar[2].ACLR
+rst => Qvar[3].ACLR
+rst => Qvar[4].ACLR
+rst => Qvar[5].ACLR
+rst => Qvar[6].ACLR
+rst => Qvar[7].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Qvar[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Qvar[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Qvar[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Qvar[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Qvar[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Qvar[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Qvar[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp6b|FlipFlopD:A1
+D[0] => Qvar[0].DATAIN
+D[1] => Qvar[1].DATAIN
+D[2] => Qvar[2].DATAIN
+D[3] => Qvar[3].DATAIN
+D[4] => Qvar[4].DATAIN
+D[5] => Qvar[5].DATAIN
+D[6] => Qvar[6].DATAIN
+D[7] => Qvar[7].DATAIN
+clk => Qvar[0].CLK
+clk => Qvar[1].CLK
+clk => Qvar[2].CLK
+clk => Qvar[3].CLK
+clk => Qvar[4].CLK
+clk => Qvar[5].CLK
+clk => Qvar[6].CLK
+clk => Qvar[7].CLK
+rst => Qvar[0].ACLR
+rst => Qvar[1].ACLR
+rst => Qvar[2].ACLR
+rst => Qvar[3].ACLR
+rst => Qvar[4].ACLR
+rst => Qvar[5].ACLR
+rst => Qvar[6].ACLR
+rst => Qvar[7].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Qvar[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Qvar[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Qvar[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Qvar[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Qvar[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Qvar[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Qvar[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp6b|FlipFlopD:A2
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp6b|FlipFlopD:A3
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp6b|SomadorGenerico:A4
+A[0] => TempA[0].IN0
+A[1] => TempA[1].IN0
+A[2] => TempA[2].IN0
+A[3] => TempA[3].IN0
+A[4] => TempA[4].IN0
+A[5] => TempA[5].IN0
+A[6] => TempA[6].IN0
+A[7] => TempA[7].IN0
+B[0] => TempB[0].IN0
+B[1] => TempB[1].IN0
+B[2] => TempB[2].IN0
+B[3] => TempB[3].IN0
+B[4] => TempB[4].IN0
+B[5] => TempB[5].IN0
+B[6] => TempB[6].IN0
+B[7] => TempB[7].IN0
+Soma[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Soma[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Soma[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Soma[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Soma[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Soma[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Soma[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Soma[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cin => Add1.IN18
+NotA => TempA[7].IN1
+NotA => TempA[6].IN1
+NotA => TempA[5].IN1
+NotA => TempA[4].IN1
+NotA => TempA[3].IN1
+NotA => TempA[2].IN1
+NotA => TempA[1].IN1
+NotA => TempA[0].IN1
+NotB => TempB[7].IN1
+NotB => TempB[6].IN1
+NotB => TempB[5].IN1
+NotB => TempB[4].IN1
+NotB => TempB[3].IN1
+NotB => TempB[2].IN1
+NotB => TempB[1].IN1
+NotB => TempB[0].IN1
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Overflow <= Overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,20 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_signed.all;
+
+ENTITY SomadorNbits IS
+	GENERIC(n : natural := 4);
+	PORT(A, B : IN STD_LOGIC_VECTOR(n-1 downto 0);
+		Soma : OUT STD_LOGIC_VECTOR(n-1 downto 0);
+		Cin : IN STD_LOGIC;
+		Cout, Overflow : OUT STD_LOGIC);
+END SomadorNbits;
+
+ARCHITECTURE experimento OF SomadorNbits IS
+	BEGIN	
+		Soma <= A + B + ('0' & Cin);
+		
+		Overflow <= ((NOT A(n-1)) AND (NOT B(n-1)) AND Soma(n-1)) OR (A(n-1) AND B(n-1) AND (NOT Soma(n-1)));
+		
+END experimento;
