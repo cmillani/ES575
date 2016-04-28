@@ -25,8 +25,8 @@ ARCHITECTURE experimento OF SomadorGenerico IS
 		
 		Temp <= ('0' & TempA) + ('0' & TempB) + ('0' & Cin);
 		
-		Soma <= Temp(n-1 downto 0);
-		Cout <= Temp(n);
+		Soma <= Temp(7 downto 0);
+		Cout <= Temp(8);
 		
 		Overflow <= ((NOT TempA(n-1)) AND (NOT TempB(n-1)) AND Temp(n-1)) OR (TempA(n-1) AND TempB(n-1) AND (NOT Temp(n-1)));
 		
