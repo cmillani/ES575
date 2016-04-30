@@ -1,0 +1,138 @@
+|Exp7a
+SW[0] => X[5].IN1
+SW[0] => X[6].IN1
+SW[0] => X[7].IN1
+SW[0] => X[8].IN1
+SW[0] => X[1].IN1
+SW[0] => X[2].IN1
+SW[0] => X[3].IN1
+SW[0] => X[4].IN1
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+SW[10] => ~NO_FANOUT~
+SW[11] => ~NO_FANOUT~
+SW[12] => ~NO_FANOUT~
+SW[13] => ~NO_FANOUT~
+SW[14] => ~NO_FANOUT~
+SW[15] => ~NO_FANOUT~
+SW[16] => ~NO_FANOUT~
+SW[17] => ~NO_FANOUT~
+LEDR[0] <= FlipFlopD:A00.Q[0]
+LEDR[1] <= FlipFlopD:A01.Q[0]
+LEDR[2] <= FlipFlopD:A02.Q[0]
+LEDR[3] <= FlipFlopD:A03.Q[0]
+LEDR[4] <= FlipFlopD:A04.Q[0]
+LEDR[5] <= FlipFlopD:A05.Q[0]
+LEDR[6] <= FlipFlopD:A06.Q[0]
+LEDR[7] <= FlipFlopD:A07.Q[0]
+LEDR[8] <= FlipFlopD:A08.Q[0]
+LEDR[9] <= <GND>
+LEDR[10] <= <GND>
+LEDR[11] <= <GND>
+LEDR[12] <= <GND>
+LEDR[13] <= <GND>
+LEDR[14] <= <GND>
+LEDR[15] <= <GND>
+LEDR[16] <= <GND>
+LEDR[17] <= <GND>
+LEDG[0] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] <= <GND>
+LEDG[2] <= <GND>
+LEDG[3] <= <GND>
+LEDG[4] <= <GND>
+LEDG[5] <= <GND>
+LEDG[6] <= <GND>
+LEDG[7] <= <GND>
+KEY[0] => FlipFlopD:A00.clk
+KEY[0] => FlipFlopD:A01.clk
+KEY[0] => FlipFlopD:A02.clk
+KEY[0] => FlipFlopD:A03.clk
+KEY[0] => FlipFlopD:A04.clk
+KEY[0] => FlipFlopD:A05.clk
+KEY[0] => FlipFlopD:A06.clk
+KEY[0] => FlipFlopD:A07.clk
+KEY[0] => FlipFlopD:A08.clk
+KEY[1] => FlipFlopD:A00.rst
+KEY[1] => FlipFlopD:A01.rst
+KEY[1] => FlipFlopD:A02.rst
+KEY[1] => FlipFlopD:A03.rst
+KEY[1] => FlipFlopD:A04.rst
+KEY[1] => FlipFlopD:A05.rst
+KEY[1] => FlipFlopD:A06.rst
+KEY[1] => FlipFlopD:A07.rst
+KEY[1] => FlipFlopD:A08.rst
+KEY[1] => FlipFlopD:A00.D[0]
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+
+
+|Exp7a|FlipFlopD:A00
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A01
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A02
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A03
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A04
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A05
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A06
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A07
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exp7a|FlipFlopD:A08
+D[0] => Qvar[0].DATAIN
+clk => Qvar[0].CLK
+rst => Qvar[0].ACLR
+Q[0] <= Qvar[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

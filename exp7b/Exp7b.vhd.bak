@@ -1,0 +1,110 @@
+LIBRARY ieee;
+USE ieee.std logic 1164.all;
+
+ENTITY Exp7b IS
+	PORT ( . . . define input and output ports
+	. . .);
+END Exp7b;
+
+ARCHITECTURE Behavior OF Exp7b IS
+	TYPE State type IS (A, B, C, D, E, F, G, H, I);
+	SIGNAL yQ, yD : State type; -- yQ is present state, yD is next state
+	SIGNAL z, w, clk, rst : STD_LOGIC;
+	
+	BEGIN
+	clk <= KEY(0);
+	rst <= NOT KEY(1);
+	
+	PROCESS (w, yQ)
+		VARIABLE zVar : STD_LOGIC;
+		BEGIN
+		CASE yQ IS
+			WHEN A 
+				IF (w = ’0’) THEN 
+					yD <= B;
+					zVar := 0;
+				ELSE 
+					yD <= F;
+					zVar := 0;
+				END IF;
+			WHEN B 
+				IF (w = ’0’) THEN 
+					yD <= C;
+					zVar := 0;
+				ELSE 
+					yD <= F;
+					zVar := 0;
+				END IF;
+			WHEN C 
+				IF (w = ’0’) THEN 
+					yD <= D;
+					zVar := 0;
+				ELSE 
+					yD <= F;
+					zVar := 0;
+				END IF;
+			WHEN D 
+				IF (w = ’0’) THEN 
+					yD <= E;
+					zVar := 1;
+				ELSE 
+					yD <= F;
+					zVar := 0;
+				END IF;
+			WHEN E 
+				IF (w = ’0’) THEN 
+					yD <= E;
+					zVar := 1;
+				ELSE 
+					yD <= F;
+					zVar := 0;
+				END IF;
+			WHEN F 
+				IF (w = ’0’) THEN 
+					yD <= B;
+					zVar := 0;
+				ELSE 
+					yD <= G;
+					zVar := 0;
+				END IF;
+			WHEN G 
+				IF (w = ’0’) THEN 
+					yD <= B;
+					zVar := 0;
+				ELSE 
+					yD <= H;
+					zVar := 0;
+				END IF;
+			WHEN H 
+				IF (w = ’0’) THEN 
+					yD <= B;
+					zVar := 0;
+				ELSE 
+					yD <= I;
+					zVar := 1;
+				END IF;
+			WHEN I 
+				IF (w = ’0’) THEN 
+					yD <= B;
+					zVar := 0;
+				ELSE 
+					yD <= I;
+					zVar := 1;
+				END IF;
+		END CASE;
+		z <= zVar;
+	END PROCESS; -- tabela de estados
+	
+	PROCESS (clk, rst, yQ, yD)
+		BEGIN
+			IF rst = '1' THEN
+				yD <= A;
+			ELSIF ( clk'event and clk = '1' ) THEN
+				yQ <= yD;
+			END IF ;
+	END PROCESS;
+	
+	--LEDR(8 downto 0) <= ;
+	LEDG(0) <= Z;
+	
+END Behavior;
